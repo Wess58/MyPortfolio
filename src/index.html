@@ -1,14 +1,62 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>Portfolio</title>
+  <title>PortFolio</title>
+
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Unlock|Song+Myung|Righteous" rel="stylesheet">
+  <link href="node_modules/@angular/material/prebuilt-themes/indigo-pink.css" rel="stylesheet">
+
 </head>
+
 <body>
-  <app-root></app-root>
+  <div class="container-fluid">
+
+    <!-- <div class="icon-bar">
+      <a class="active" href="#"><i class="fa fa-home"></i></a>
+      <a href="#"><i >THOGUH</i></a>
+      <a href="#"><i >MENU</i></a>
+      <a href="#"><i >MENU</i></a>
+      <a href="#"><i >MENU</i></a>
+    </div> -->
+
+    <p id="nameFixed">Wesley Mbate</p>
+    <div class="container contNav">
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <span class="justName"></span>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        </div>
+
+      <div class="container-fluid">
+        <app-root></app-root>
+      </div>
+
+
+  </div>
 </body>
+
 </html>
