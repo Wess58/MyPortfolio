@@ -14,13 +14,21 @@ img {
   width: 300px;
   height: 400px;
   margin-bottom: 2em;
-  transition: all .5s cubic-bezier(0.645, 0.045, 0.345, 1);
+  transition: all .4s;
   box-shadow: 10px 20px 20px 0 rgba(0, 0, 0, .6);
 }
 
 #selfimage:hover {
-  margin-top: 5px;
+  margin-top: 10px;
   box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, .6);
+}
+.names{
+  font-family: 'Chela One', cursive;
+  font-size: 50px;
+}
+
+.name2{
+  margin-left: 40px;
 }
 
 .Aboutme {
@@ -33,7 +41,7 @@ img {
   padding: 30px;
 }
 
-.Aboutme {
+.Aboutme, .names {
   -webkit-animation: slide 1s linear  1;
   animation:slide 1s linear  1;
 }
