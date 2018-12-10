@@ -1,7 +1,6 @@
 .container{
   padding: 20px;
   padding-bottom: 40px;
-
 }
 h2{
   font-family: 'Unlock', cursive;
@@ -13,14 +12,16 @@ h2{
 h4{
   font-family: 'Righteous', cursive;
   text-decoration: overline;
-  
+
 }
 img{
   width: 50px;
   height: 50px;
   margin: 5px;
 }
-
+button{
+  margin-top: 3px;
+}
 
 /* individual card styles */
 #art{
@@ -68,7 +69,7 @@ img{
 /* CARDS STYLES */
 .card {
     width: 300px;
-    height: 470px;
+    height: 500px;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 10px 20px 30px 5px grey;
