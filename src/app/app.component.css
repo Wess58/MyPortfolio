@@ -1,32 +1,63 @@
-h2{
+h2 {
   font-family: 'Unlock', cursive;
   text-align: center;
   text-decoration: underline;
-
 }
-img{
+
+img {
   width: 50px;
   height: 50px;
   margin: 5px;
 }
-#selfimage{
+
+#selfimage {
   width: 300px;
   height: 400px;
   margin-bottom: 2em;
   transition: all .5s cubic-bezier(0.645, 0.045, 0.345, 1);
   box-shadow: 10px 20px 20px 0 rgba(0, 0, 0, .6);
-
 }
-#selfimage:hover{
+
+#selfimage:hover {
   margin-top: 5px;
-    box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, .6);
-
+  box-shadow: 5px 10px 10px 0 rgba(0, 0, 0, .6);
 }
-.Aboutme{
+
+.Aboutme {
   padding: 20px;
   margin-bottom: 2em;
   font-size: 18px;
 }
-.rowSelf{
+
+.rowSelf {
   padding: 30px;
+}
+
+.Aboutme {
+  -webkit-animation: slide 1s linear  1;
+  animation:slide 1s linear  1;
+}
+
+@keyframes slide {
+  from{
+    opacity: 0;
+    margin-top: 20px
+  }
+  to{
+    opacity: 1;
+    margin-top: 0;
+
+  }
+}
+
+@-webkit-keyframes slide {
+  from{
+    opacity: 0;
+    margin-top: 20px
+  }
+  to{
+    opacity: 1;
+    margin-top: 0;
+
+  }
 }
