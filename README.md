@@ -1,7 +1,7 @@
 # Portfolio :wave:
 
 
-### By wesley Mbate
+## By Wesley Mbate
 
 ## Description
   My Portfolio, a source of tangible evidence of the wide range of knowledge, skills, and dispositions that I have possessed as a growing professional Software Engineer. It also includes my Projects and the contact media to easily and effectively reach out through.
@@ -15,10 +15,10 @@
 
 ### Technologies used
 
-  * Angular6 Framework
+   * Angular6 Framework
    * HTML5
    * Material Design for Angular
-   * CSS3
+   * CSS3 / AOS Library
    * Typescript E6
    * Bootstrap 4.1
 
@@ -42,7 +42,7 @@ Install Git on you machine
  This website is under the MIT license which can be found [HERE](LICENSE).
  Copyright (c) 2018 wesleymbate
 
- 
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
