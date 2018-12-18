@@ -6,6 +6,15 @@
 ## Description
   My Portfolio, a source of tangible evidence of the wide range of knowledge, skills, and dispositions that I have possessed as a growing professional Software Engineer. It also includes my Projects and the contact media to easily and effectively reach out through.
 
+
+## Screenshots
+
+  ![SplashScreen](src/assets/images/screenshots/Screenshot_20181218-173225.png)
+  ![Welcome Page](src/assets/images/screenshots/Screenshot_20181218-173203.png)
+  ![GitHub Logo](/images/logo.png)
+  ![GitHub Logo](/images/logo.png)
+  ![GitHub Logo](/images/logo.png)
+
 ### Prerequisites
 
  * An up-to-date browser, preferably chrome or mozilla
