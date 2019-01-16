@@ -4,7 +4,15 @@
 
 body {
   font-family: 'Song Myung', serif;
-  background-color: #2C3E50;
+  background-image: url(src/assets/images/rawpixel-658240-unsplash.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
 }
 
 button {
@@ -27,25 +35,26 @@ button {
 .container {
   margin-bottom: 1em;
   background-color: white;
-  border-radius: 5px;
   box-shadow: 0 10px 10px 10px #17202A;
 }
 
 /* for Menu Bar */
 .icon-bar {
-  width: 100px;
-  margin-top: 3em;
-  background-color: #fff;
+  width: 200px;
+  height: 100vh;
+  padding-top: 5%;
   position: fixed;
-  border-radius: 5px;
+  background-color: #2C3E50;
+  font-family: 'Righteous', cursive;
 }
 
 .icon-bar a {
   display: block;
   text-align: center;
   padding: 10px;
+  margin-bottom: 20px;
   transition: all 0.3s ease;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   position: relative;
 }
@@ -61,18 +70,34 @@ button {
 .active {
   background-color: #4CAF50;
 }
+.bottomIconBar{
+
+}
+
+#logoIcon {
+  margin-left: 25%;
+  width: 100px;
+  height: 100px;
+}
+
+#namoe {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
 
 #nameFixed {
   font-family: 'Unlock', cursive;
   font-size: 30px;
   color: white;
-  position: fixed;
   text-decoration: underline;
 }
 
 /* CLASS FOR MEDIA QUERIES */
-@media(max-width: 1000px) {
+@media(max-width: 1025px) {
   .icon-bar, #nameFixed {
     display: none;
   }
 }
+
+@@media (max-width: 746px) {}

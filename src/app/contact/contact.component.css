@@ -1,5 +1,6 @@
 .container{
   padding: 10px;
+
 }
 button{
   background-color: #2C3E50;
@@ -7,7 +8,9 @@ button{
 }
 mat-panel-title{
     font-family: 'Unlock', cursive;
+    font-size: 40px;
 }
+
 
 /* FOOTER STYLE */
 footer{
