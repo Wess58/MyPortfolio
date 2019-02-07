@@ -1,10 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css";
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,700);
 
+/* url(src/assets/images/rawpixel-658240-unsplash.jpg); */
 body {
   font-family: 'Song Myung', serif;
-  background-image: url(src/assets/images/rawpixel-658240-unsplash.jpg);
+  background-image: linear-gradient(  45deg,
+  rgba(0, 0, 0, 0.1) 84%, rgba(135, 67, 13, 1) 84%,
+  rgba(135, 67, 13, 1) 90% ,rgba(255,191,0) 90%,
+  rgba(255,191,0) 95%, rgba(0, 0, 0, 0) 95%,
+   rgba(0,0,0,0) 99%, rgba(135, 67, 13, 1) 99% ),
+   linear-gradient(  225deg,
+   rgba(0, 0, 0, 0.1) 84%, rgba(135, 67, 13, 1) 84%,
+   rgba(135, 67, 13, 1) 90% ,rgba(255,191,0) 90%,
+   rgba(255,191,0) 95%, rgba(0, 0, 0, 0) 95%,
+    rgba(0,0,0,0) 99%, rgba(135, 67, 13, 1) 99% );
+  background-color: whitesmoke;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -20,58 +32,39 @@ button {
   margin: 0;
 }
 
-.container-fluid {
-  /* background: radial-gradient(circle at 50% 0,
-        rgba(255,0,0,.5),
-        rgba(255,0,0,0) 70.71%),
-      radial-gradient(circle at 6.7% 75%,
-        rgba(0,0,255,.5),
-        rgba(0,0,255,0) 70.71%),
-      radial-gradient(circle at 93.3% 75%,
-        rgba(0,255,0,.5),
-        rgba(0,255,0,0) 70.71%) beige; */
-}
-
-.container {
-  margin-bottom: 1em;
-  background-color: white;
-  box-shadow: 0 10px 10px 10px #17202A;
-}
+.container {}
 
 /* for Menu Bar */
 .icon-bar {
-  width: 200px;
-  height: 100vh;
-  padding-top: 5%;
+  padding-top: 20px;
   position: fixed;
-  background-color: #2C3E50;
   font-family: 'Righteous', cursive;
+  border-bottom: 2px solid #000;
 }
 
 .icon-bar a {
   display: block;
   text-align: center;
+  font-family: 'Unlock', cursive;
+  font-size: 20px;
   padding: 10px;
-  margin-bottom: 20px;
   transition: all 0.3s ease;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   position: relative;
 }
 
 .icon-bar a:hover {
-  color: #fff;
-  background-color: #000;
-  margin-left: 10px;
+  color: #5FA01D;
+  text-align: center;
+  border-radius: 5px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .active {
-  background-color: #4CAF50;
-}
-.bottomIconBar{
-
+  background-color: #5FA01D;
+  border-radius: 5px;
 }
 
 #logoIcon {
@@ -82,22 +75,17 @@ button {
 
 #namoe {
   text-align: center;
-  color: white;
+  color: #000;
   font-size: 30px;
-}
-
-#nameFixed {
-  font-family: 'Unlock', cursive;
-  font-size: 30px;
-  color: white;
   text-decoration: underline;
 }
 
 /* CLASS FOR MEDIA QUERIES */
-@media(max-width: 1025px) {
-  .icon-bar, #nameFixed {
+@media(max-width: 1000px) {
+  .icon-bar {
     display: none;
   }
+
 }
 
 @media (max-width: 746px) {}
