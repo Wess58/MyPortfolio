@@ -1,25 +1,28 @@
-.container{
+.contactContainer {
   padding: 10px;
-
+  margin-bottom: 1em;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.6);
 }
-button{
+
+button {
   background-color: #2C3E50;
   color: white;
 }
-mat-panel-title{
-    font-family: 'Unlock', cursive;
-    font-size: 40px;
+
+mat-panel-title {
+  font-family: 'Unlock', cursive;
+  font-size: 40px;
 }
 
-
 /* FOOTER STYLE */
-footer{
+footer {
   padding: 0;
   color: #515A5A;
   font-family: 'Righteous', cursive;
-
 }
-.example-tooltip-color{
+.example-tooltip-color {
   background: #2C3E50;
 }
 

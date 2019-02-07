@@ -1,9 +1,9 @@
-<div id="contact" class="container">
+<div id="contact" class="container contactContainer">
   <mat-accordion>
     <mat-expansion-panel>
       <mat-expansion-panel-header>
         <mat-panel-title>
-        Contact Me
+          Contact Me
         </mat-panel-title>
         <mat-panel-description>
           click to reveal form
@@ -16,19 +16,19 @@
           <mat-label>Name</mat-label>
           <input matInput required>
         </mat-form-field>
-          <br>
-          <mat-form-field appearance="legacy">
-            <mat-label>Email</mat-label>
-            <input type="email" matInput required>
+        <br>
+        <mat-form-field appearance="legacy">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput required>
         </mat-form-field>
-            <br>
-            <mat-form-field>
-              <textarea matInput placeholder="Textarea"></textarea>
-            </mat-form-field>
-            <br>
-            <div class="example-button-row">
-              <button type="submit" mat-raised-button >SEND</button>
-            </div>
+        <br>
+        <mat-form-field>
+          <textarea matInput placeholder="Textarea"></textarea>
+        </mat-form-field>
+        <br>
+        <div class="example-button-row">
+          <button type="submit" mat-raised-button>SEND</button>
+        </div>
       </form>
 
 
@@ -40,12 +40,17 @@
 
   <footer>
     <div id="bottom">
-      <a href="www.Linkedin.com/in/wesley-mbate-b1b206177"><img  matTooltip="LinkedIn"  [matTooltipPosition]="position" class="bottom" src="assets/images/linkedIn.png"></a>
-      <a href="https://www.deviantart.com/wessnyangau"><img matTooltip="Deviant Art"  [matTooltipPosition]="position" class="bottom" src="assets/images/DeviantArt.png"></a>
-      <a href="https://github.com/Wess58"><img matTooltip="Github"  [matTooltipPosition]="position" class="bottom" src="assets/images/github.png"></a>
+      <a href="www.Linkedin.com/in/wesley-mbate-b1b206177"><img matTooltip="LinkedIn" [matTooltipPosition]="position" class="bottom" src="assets/images/linkedIn.png"></a>
+      <a href="https://www.deviantart.com/wessnyangau"><img matTooltip="Deviant Art" [matTooltipPosition]="position" class="bottom" src="assets/images/DeviantArt.png"></a>
+      <a href="https://github.com/Wess58"><img matTooltip="Github" [matTooltipPosition]="position" class="bottom" src="assets/images/github.png"></a>
       <br>
       <br>
-      <p class="contact">Email: wessaosdev(at)gmail.com <br> &#9400; 2018 wesleymbate - All Rights Reserved</p>
+      <div class="contact">
+        <p class="justify-content-md-center">Email: wesleymbate(at)gmail.com</p>
+        <br>
+        <p class="justify-content-md-center">&#9400; 2019 wesleymbate - All Rights Reserved</p>
+      </div>
+
     </div>
   </footer>
 </div>
