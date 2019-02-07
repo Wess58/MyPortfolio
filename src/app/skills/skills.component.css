@@ -2,6 +2,19 @@
   box-shadow: 0 0 0 0;
 }
 
+.skillsContainer {
+  margin-bottom: 10%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.6);
+}
+
+.artItems {
+  width: 400px;
+  height: 500px;
+  object-fit: contain;
+}
+
 h2 {
   font-family: 'Unlock', cursive;
   text-align: center;
@@ -14,6 +27,10 @@ h4 {
 }
 
 h6 {
+  font-family: 'Righteous', cursive;
+}
+
+p {
   font-family: 'Righteous', cursive;
 }
 
@@ -31,8 +48,12 @@ img {
 .cardSkills {
   font-family: 'Song Myung', serif;
   padding: 10px;
-  margin: 10px;
   width: 350px;
   height: 300px;
   border-style: none;
+}
+
+#moringalogo {
+  width: 200px;
+  height: 100px;
 }
