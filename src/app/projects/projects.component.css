@@ -1,118 +1,189 @@
-.container{
+.projectsContainer {
   padding: 20px;
   padding-bottom: 40px;
+  margin-bottom: 10%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.6);
 }
-h2{
+
+h2 {
   font-family: 'Unlock', cursive;
   text-align: center;
   font-size: 40px;
   text-decoration: underline;
-
 }
-h4{
+
+h4 {
   font-family: 'Righteous', cursive;
   text-decoration: overline;
-
 }
-img{
+
+img {
   width: 50px;
   height: 50px;
   margin: 5px;
 }
-button{
+
+button {
   margin-top: 3px;
 }
 
 /* individual card styles */
-#art{
+#art {
   width: 250px;
   height: 250px;
   margin-top: 30%;
-  margin-left: 20px;
+  margin-left: 7%;
   border-radius: 50%;
-
+  border: 2px solid #fff;
+}
+#drone{
+  width: 250px;
+  height: 250px;
+  margin-top: 35%;
+  margin-left: 8%;
 }
 
-#github{
+#github {
   width: 275px;
   height: 275px;
   margin-left: 5px;
   margin-top: 27%;
-
 }
 
-#wildlife{
+#wildlife {
   width: 280px;
   height: 280px;
   margin-top: 30%;
-
 }
+
 .cardart .imgBx,
 .cardart .details {
-  background-image: linear-gradient(30deg, #D35400 , black);
+  background-image: linear-gradient(30deg, #D35400, black);
+}
 
+.cardDrone .imgBx,
+.cardDrone .details {
+  background-image: linear-gradient(30deg, #048DC5, black);
 }
 
 .cardgithub .imgBx,
-.cardgithub .details{
-  background-image: linear-gradient(30deg, #21618C , black);
-
+.cardgithub .details {
+  background-image: linear-gradient(30deg, #21618C, black);
 }
+
 .cardwidlife .imgBx,
-.cardwidlife  .details{
-    background-image: linear-gradient(30deg, #27AE60 , black);
-
+.cardwidlife .details {
+  background-image: linear-gradient(30deg, #27AE60, black);
 }
-
-
 
 /* CARDS STYLES */
 .card {
-    width: 300px;
-    height: 500px;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 10px 20px 30px 5px grey;
+  width: 300px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 10px 20px 30px 5px grey;
 }
+
 .card .imgBx,
 .card .details {
-    width: 100%;
-    height: 100%;
-      margin: auto;
-    position: absolute;
-    box-sizing: border-box;
-    transition: .6s;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  box-sizing: border-box;
+  transition: .6s;
 }
+
 .card .imgBx {
-    top: 0;
-    left: 0;
+  top: 0;
+  left: 0;
 }
+
 .card:hover .imgBx {
-    top: 0;
-    left: -100%;
-
+  top: 0;
+  left: -100%;
 }
+
 .card .imgBx img {
-    width: 100%;
+  width: 100%;
 }
+
 .card .details {
-    top: 0;
-    left: 100%;
-    padding: 60px 30px;
+  top: 0;
+  left: 100%;
+  padding: 60px 30px;
 }
+
 .card:hover .details {
-    top: 0;
-    left: 0%;
+  top: 0;
+  left: 0%;
 }
+
 .card .details h2 {
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    padding: 0 0 10px;
-    border-bottom: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 10px;
+  border-bottom: 2px solid #fff;
+}
+
+.card .details p {
+  margin: 20px 0 0;
+  color: #fff;
+}
+
+/* INDIVIDUAL IMAGE RESIZING AND FEATURES */
+.Art {
+  height: 80vh;
+  overflow: hidden;
+}
+
+.Art .card {
+  border-style: solid;
+  border-radius: 5px;
+}
+.Art .card:hover{
 
 }
-.card .details p {
-    margin: 20px 0 0;
-    color: #fff;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Tupac {
+  width: 100%;
+  height: 80%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.rowVertical {
+  display: grid;
+}
+
+#Wiz {
+  width: 100%;
+  height: 50%;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+#Njunji {
+  width: 100%;
+  height: 50%;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+#MicCheck {
+  width: 100%;
+  height: 80%;
+  border-radius: 5px;
+  object-fit: contain;
+  position: relative;
 }
