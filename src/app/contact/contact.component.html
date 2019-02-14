@@ -1,42 +1,29 @@
 <div id="contact" class="container contactContainer">
-  <mat-accordion>
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title>
-          Contact Me
-        </mat-panel-title>
-        <mat-panel-description>
-          click to reveal form
-        </mat-panel-description>
-      </mat-expansion-panel-header>
 
-
-      <form>
-        <mat-form-field appearance="legacy">
-          <mat-label>Name</mat-label>
-          <input matInput required>
-        </mat-form-field>
-        <br>
-        <mat-form-field appearance="legacy">
-          <mat-label>Email</mat-label>
-          <input type="email" matInput required>
-        </mat-form-field>
-        <br>
-        <mat-form-field>
-          <textarea matInput placeholder="Textarea"></textarea>
-        </mat-form-field>
-        <br>
-        <div class="example-button-row">
-          <button type="submit" mat-raised-button>SEND</button>
+  <div class="container Form">
+    <h2>CONTACT FORM</h2>
+    <form class="" action="index.html" method="post">
+      <div class="row" style="display:flex;justify-content:center;align-items:center;">
+        <div class="col-md-6">
+          <input value="" placeholder="First Name *" required>
         </div>
-      </form>
+        <div class="col-md-6">
+          <input value="" placeholder="Last Name *" required>
+        </div>
+      </div>
+      <div class="row" style="display:flex;justify-content:center;align-items:center;">
+        <div class="col-md-6">
+          <input value="" placeholder="Email Address *" required>
+        </div>
+        <div class="col-md-6">
+          <input value="" placeholder="Country *" required>
+        </div>
+      </div>
+      <input  class="longInput" placeholder="Subject *" required>
+      <textarea name="name" rows="8" cols="80" placeholder="Message *"></textarea>
 
-
-
-
-    </mat-expansion-panel>
-  </mat-accordion>
-
+    </form>
+  </div>
 
   <footer>
     <div id="bottom">
@@ -46,8 +33,6 @@
       <br>
       <br>
       <div class="contact">
-        <p class="justify-content-md-center">Email: wesleymbate(at)gmail.com</p>
-        <br>
         <p class="justify-content-md-center">&#9400; 2019 wesleymbate - All Rights Reserved</p>
       </div>
 
