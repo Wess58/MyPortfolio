@@ -7,8 +7,8 @@ h2 {
 .cont {
   box-shadow: 0 0 0 0;
   background-color: transparent;
-  height: 100vh;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 .rowSelf {
@@ -23,8 +23,8 @@ img {
 }
 
 #selfimage {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   border: 5px solid #fff;
   margin-bottom: 2em;
@@ -229,17 +229,37 @@ figure .caption {
 
 /* CARD HOVER EFFECT END */
 /* CLASS FOR MEDIA QUERIES */
-@media only screen and (max-width: 1500px) {
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 700px) {
+  nav a {
+    text-align: center;
+    margin: 3px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .cont {
+    margin-top: 20%;
+    margin-bottom: 2%;
+  }
   #selfimage {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     display: inline-flex;
   }
 
   figure {
-    width: 300px;
-    height: 180px;
+    display: none;
+  }
+  
+  .Aboutme{
+    width: 100%;
+    font-size: 13px;
+  }
+  .cont{
+    margin-bottom: 50%;
   }
 }
-
-@media (max-width: 746px) {}

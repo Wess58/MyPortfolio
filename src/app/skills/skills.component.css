@@ -57,3 +57,18 @@ img {
   width: 200px;
   height: 100px;
 }
+
+@media only screen and (max-width: 700px) {
+  .skillsContainer{
+    margin-top: 1rem;
+  }
+  .notAvgContainer img{
+    display: none;
+  }
+  .notAvgContainer h4{
+    text-decoration: underline;
+  }
+  .notAvgContainer h6{
+    text-decoration: underline;
+  }
+}
