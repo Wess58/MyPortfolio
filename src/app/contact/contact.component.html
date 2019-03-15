@@ -1,40 +1,62 @@
-<div id="contact" class="container contactContainer">
+<div class="container-fluid contactFluid">
 
-  <div class="container Form">
-    <h2>CONTACT FORM</h2>
-    <form class="" action="index.html" method="post">
-      <div class="row" style="display:flex;justify-content:center;align-items:center;">
-        <div class="col-md-6">
-          <input value="" placeholder="First Name *" required>
-        </div>
-        <div class="col-md-6">
-          <input value="" placeholder="Last Name *" required>
+  <div id="contact" class="container contactContainer">
+    <div class="row">
+      <div class="col-xs-12 col-md-5">
+        <div class="GetInTouch">
+
+          <h2>Get in Touch</h2>
+          <p>Have a project you'd like to embark or partner on? Let's create the next big thing together.</p>
+          <div class="row">
+            <img src="assets/images/map-pin-marked.png" title="Location">
+            <p>Nairobi, Kenya</p>
+          </div>
+
+          <div class="row">
+            <img src="assets/images/telephone-symbol-button.png" title="Call">
+            <p>+245 703 926 058</p>
+          </div>
+
+          <div class="row">
+            <img src="assets/images/black-envelope.png" title="Email">
+            <p>wesleymbate@gmail.com</p>
+          </div>
+
+          <div class="row">
+            <img src="assets/images/whatsapp.png" title="Whatsapp">
+            <p>+254 703 926 058 <br> +254 732 938 770</p>
+          </div>
+
         </div>
       </div>
-      <div class="row" style="display:flex;justify-content:center;align-items:center;">
-        <div class="col-md-6">
-          <input value="" placeholder="Email Address *" required>
-        </div>
-        <div class="col-md-6">
-          <input value="" placeholder="Country *" required>
-        </div>
+      <div class="col-xs-12 col-md-7">
+        <form class="" action="index.html" method="post">
+          <div class="row" style="display:flex;justify-content:center;align-items:center;">
+            <div class="col-md-6">
+              <input value="" placeholder="Your Names *" required>
+            </div>
+            <div class="col-md-6">
+              <input value="" placeholder="Email Address *" required>
+            </div>
+
+          </div>
+
+          <textarea name="name" rows="8" placeholder="Message *"></textarea>
+          <button class="btn btn-outline-light d-flex justify-content-end">Send message</button>
+        </form>
       </div>
-      <input  class="longInput" placeholder="Subject *" required>
-      <textarea name="name" rows="8" cols="80" placeholder="Message *"></textarea>
-
-    </form>
-
-  </div>
-
-  <footer>
-    <div id="bottom">
-      <a href="www.Linkedin.com/in/wesley-mbate-b1b206177"><img matTooltip="LinkedIn" [matTooltipPosition]="position" class="bottom" src="assets/images/linkedin.png"></a>
-      <a href="https://www.deviantart.com/wessnyangau"><img matTooltip="Deviant Art" [matTooltipPosition]="position" class="bottom" src="assets/images/DeviantArt.png"></a>
-      <a href="https://github.com/Wess58"><img matTooltip="Github" [matTooltipPosition]="position" class="bottom" src="assets/images/githubicon.png"></a>
 
     </div>
-  </footer>
-  <div class="contact">
-    <p class="justify-content-md-center">&#9400; 2019 wesleymbate - All Rights Reserved</p>
+    <footer>
+      <div id="bottom" style="display:flex;justify-content:center;align-items:center;">
+        <a href="www.Linkedin.com/in/wesley-mbate-b1b206177" target="_blank"><img matTooltip="LinkedIn" [matTooltipPosition]="position" class="bottom" src="assets/images/linkedin.png"></a>
+        <a href="https://www.deviantart.com/wessnyangau" target="_blank"><img matTooltip="Deviant Art" [matTooltipPosition]="position" class="bottom" src="assets/images/DeviantArt.png"></a>
+        <a href="https://github.com/Wess58" target="_blank"><img matTooltip="Github" [matTooltipPosition]="position" class="bottom" src="assets/images/githubicon.png"></a>
+
+      </div>
+    </footer>
+    <div class="contact justify-content-center">
+      <p>&#9400; 2019 wesleymbate - All Rights Reserved</p>
+    </div>
   </div>
 </div>
