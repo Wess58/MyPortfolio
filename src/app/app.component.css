@@ -50,13 +50,17 @@ img {
 }
 
 .Aboutme {
+  color: #000;
   padding: 20px;
   margin-bottom: 2em;
   font-size: 18px;
   -webkit-animation: slide 2s linear 1;
   animation: slide 2s linear 1;
 }
-
+.Aboutme a{
+  color: #000;
+  text-decoration: underline;
+}
 @keyframes slide {
   from {
     opacity: 0;
@@ -254,7 +258,7 @@ figure .caption {
   figure {
     display: none;
   }
-  
+
   .Aboutme{
     width: 100%;
     font-size: 13px;

@@ -36,9 +36,8 @@ button {
 
 /* NAVBAR */
 nav {
-  background-color: #fff;
+  background-color: transparent;
   color: #fff !important;
-  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.6);
 }
 
 nav .navbar-brand {
@@ -46,10 +45,15 @@ nav .navbar-brand {
   border: 2px solid;
   border-radius: 0 10px 0 10px;
   padding: 5px;
+  background: linear-gradient(30deg,rgba(255, 191, 0),  #000, rgba(255, 191, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 nav a {
+  font-family: 'Righteous', cursive;
   text-decoration: none;
+  color: #000!important;
   margin: 0px 10px;
   padding: 10px 10px;
   position: relative;
@@ -59,18 +63,17 @@ nav a {
 
 nav a:before {
   position: absolute;
-  width: 2px;
+  width: 5px;
   height: 100%;
   left: 0px;
   top: 0px;
   content: '';
   background: #000;
-  opacity: 0.5;
   transition: all 0.3s;
 }
 
 nav a:hover:before {
-  background-color: #fff;
+  background-color: transparent;
   width: 100%;
 }
 
@@ -88,11 +91,20 @@ nav img {
 
 /* NAVBAR END */
 /* CLASS FOR MEDIA QUERIES */
-@media(max-width: 1000px) {
-}
+@media(max-width: 1000px) {}
 
 @media (max-width: 700px) {
-  .navbar-brand {}
+  body{
+    overflow-x: hidden;
+  }
+  nav{
+    background-color: #fff;
+  }
+  nav a{
+    text-align: center;
+    margin: 5px;
+
+  }
 
   nav img {
     width: 40px;
