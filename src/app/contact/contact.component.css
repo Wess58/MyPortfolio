@@ -16,11 +16,11 @@ button {
 
 form {
   color: #fff;
-  font-family: 'Righteous', cursive;
+  font-family: 'Exo', sans-serif;
 }
 
 ::placeholder {
-  color: #878282;
+  color: #fff;
 }
 
 .GetInTouch .row {
@@ -39,8 +39,9 @@ text-decoration: underline;
   margin: 10px;
 }
 .GetInTouch p{
-  font-family: 'Righteous', cursive;
+  font-family: 'Exo', sans-serif;
   padding: 5px;
+  letter-spacing: 1px;
 }
 
 form input {
@@ -100,7 +101,7 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .Form {
     margin: auto;
   }
