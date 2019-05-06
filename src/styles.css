@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Song Myung', serif;
+  font-family: 'Exo', sans-serif;
   background-image: linear-gradient(45deg,
     rgba(255, 255, 255, 0.1) 84%, rgba(135, 67, 13, 1) 84%,
     rgba(135, 67, 13, 1) 90%, rgba(255, 191, 0) 90%,
@@ -36,7 +36,8 @@ button {
 
 /* NAVBAR */
 nav {
-  background-color: transparent;
+  background-color: #fff;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
   color: #fff !important;
 }
 
@@ -50,36 +51,45 @@ nav .navbar-brand {
   -webkit-text-fill-color: transparent;
 }
 
-nav a {
+nav .nav-link {
   font-family: 'Righteous', cursive;
   text-decoration: none;
   color: #000!important;
   margin: 0px 10px;
-  padding: 10px 10px;
+  padding: 5px 5px;
   position: relative;
   z-index: 0;
   cursor: pointer;
 }
-
-nav a:before {
+nav .nav-link:after {
   position: absolute;
-  width: 5px;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-  content: '';
+  left: 10px;
+  height: 4px;
   background: #000;
+  content: "";
+  opacity: 0;
   transition: all 0.3s;
 }
 
-nav a:hover:before {
-  background-color: transparent;
-  width: 100%;
+nav .nav-link:after {
+  width: 40px;
+  border-radius: 20px;
+  bottom: 0px;
+  transform: translateX(-10px);
 }
 
-nav img {
-  width: 30px;
-  height: 30px;
+nav .nav-link:hover:after {
+  opacity: 1;
+  transform: translateX(5px);
+}
+nav .nav-link{
+
+}
+.nav-item{
+  display: inline-flex;
+}
+nav span i{
+  color: #000;
   visibility: hidden;
 }
 
@@ -93,22 +103,61 @@ nav img {
 /* CLASS FOR MEDIA QUERIES */
 @media(max-width: 1000px) {}
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   body{
     overflow-x: hidden;
   }
   nav{
+
     background-color: #fff;
   }
-  nav a{
-    text-align: center;
-    margin: 5px;
-
+  nav a .fas {
+    text-decoration: none!important;
+    color: #000!important;
+    margin: 0px 10px;
+    padding: 5px 5px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+  }
+  nav a .fas:after {
+    position: absolute;
+    left: 10px;
+    height: 4px;
+    background: #000;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
   }
 
-  nav img {
+  nav a .fas:after {
     width: 40px;
-    height: 40px;
+    border-radius: 20px;
+    bottom: -5px;
+    transform: translateX(-10px);
+  }
+
+  nav a .fas:hover:after {
+    opacity: 1;
+    transform: translateX(-10px);
+}
+  nav a .fas{
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+
+  }
+  .nav-item{
+      display: inline-flex;
+  }
+  nav .nav-link{
+    display: none;
+  }
+  nav span i{
+    text-decoration: none!important;
+    color: #000;
+    font-size: 20px;
     visibility: visible;
+
   }
 }
