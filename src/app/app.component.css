@@ -30,7 +30,7 @@ img {
   margin-bottom: 2em;
   object-fit: cover;
   transition: all .4s;
-  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 50px 40px 5px rgba(0, 0, 0, 0.3);
 }
 
 #selfimage:hover {
@@ -50,10 +50,11 @@ img {
 }
 
 .Aboutme {
-  color: #000;
+  color: #262424;
   padding: 20px;
   margin-bottom: 2em;
   font-size: 18px;
+  letter-spacing: 1px;
   -webkit-animation: slide 2s linear 1;
   animation: slide 2s linear 1;
 }
@@ -71,15 +72,15 @@ img {
   }
 }
 
-@-webkit-keyframes slide {
-  from {
-    opacity: 0;
-  }
+  @-webkit-keyframes slide {
+    from {
+      opacity: 0;
+    }
 
-  to {
-    opacity: 1;
+    to {
+      opacity: 1;
+    }
   }
-}
 
 /* Arrow & Hover Animation START*/
 #more-arrows {
@@ -134,7 +135,7 @@ figure {
   transition: 0.6s;
   transform-style: preserve-3d;
   margin-bottom: 10%;
-  box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 50px 40px 5px rgba(0, 0, 0, 0.3);
 }
 
 figure .caption {
@@ -252,6 +253,7 @@ figure .caption {
   #selfimage {
     width: 200px;
     height: 200px;
+    box-shadow: 0 50px 40px 5px rgba(0, 0, 0, 0.3);
     display: inline-flex;
   }
 
