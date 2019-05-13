@@ -47,7 +47,7 @@ img {
   border-radius: 15px;
   border-style: none;
   background-color: #fff;
-  box-shadow: 0 4.5px 10px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 .BorderB {
@@ -68,7 +68,6 @@ img {
   background: #A4C639;
   height: 5px;
   width: 100px;
-  height: 5px;
   border-radius: 20px;
 }
 
@@ -82,7 +81,6 @@ img {
   top: 120px;
   height: 5px;
   width: 100px;
-  height: 5px;
   border-radius: 20px;
 }
 
@@ -96,20 +94,18 @@ img {
   top: 120px;
   height: 5px;
   width: 100px;
-  height: 5px;
   border-radius: 20px;
 }
 
 #Spark .BorderB {
+  position: absolute;
   top: 100px;
 }
 
 #Spark:hover .BorderB {
-  position: absolute;
   background: #ff811b;
   height: 5px;
   width: 100px;
-  height: 5px;
   border-radius: 20px;
 }
 
@@ -162,7 +158,8 @@ img {
   .notAvgContainer h6 {
     text-decoration: underline;
   }
-  .BorderB{
+
+  .BorderB {
     display: none;
   }
 }
