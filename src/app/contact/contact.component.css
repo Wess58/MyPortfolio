@@ -40,6 +40,7 @@ text-decoration: underline;
 }
 .GetInTouch p{
   font-family: 'Exo', sans-serif;
+  color: #fff;
   padding: 5px;
   letter-spacing: 1px;
 }
@@ -70,8 +71,8 @@ footer {
   font-family: 'Righteous', cursive;
 }
 
-.example-tooltip-color {
-  background: #2C3E50;
+::ng-deep .bottom_tooltip {
+  background: #258bf1;
 }
 
 #bottom {
@@ -79,20 +80,19 @@ footer {
 }
 
 .bottom {
-  width: 50px;
-  height: 50px;
+  font-size: 40px;
+  color: #000;
   padding: -0.5em;
-  margin:10px;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
   transition: all .8s cubic-bezier(0.645, 0.045, 0.355, 1);
-  filter: grayscale(100%);
+
 }
 
 .bottom:hover {
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-  filter: grayscale(0);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+
 }
 
 .contact {
