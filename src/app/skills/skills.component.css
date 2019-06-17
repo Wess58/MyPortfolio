@@ -6,6 +6,7 @@
   margin-bottom: 10%;
   background-color: transparent;
   border-radius: 5px;
+  overflow-y: hidden;
 }
 
 ::ng-deep .mat-tab-labels, .mat-tab-label, .mat-tab-link {
