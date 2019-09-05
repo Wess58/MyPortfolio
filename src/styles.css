@@ -11,15 +11,15 @@ html {
 body {
   font-family: 'Exo', sans-serif;
   background-image: linear-gradient(45deg,
-    rgba(255, 255, 255, 0.1) 84%, rgba(135, 67, 13, 1) 84%,
-    rgba(135, 67, 13, 1) 90%, rgba(255, 191, 0) 90%,
-    rgba(255, 191, 0) 95%, rgba(0, 0, 0, 0) 95%,
-    rgba(0, 0, 0, 0) 99%, rgba(135, 67, 13, 1) 99%),
+      rgba(255, 255, 255, 0.1) 84%, rgba(135, 67, 13, 1) 84%,
+      rgba(135, 67, 13, 1) 90%, rgba(255, 191, 0) 90%,
+      rgba(255, 191, 0) 95%, rgba(0, 0, 0, 0) 95%,
+      rgba(0, 0, 0, 0) 99%, rgba(135, 67, 13, 1) 99%),
     linear-gradient(225deg,
-    rgba(255, 255, 255, 0.1) 84%, rgba(135, 67, 13, 1) 84%,
-    rgba(135, 67, 13, 1) 90%, rgba(255, 191, 0) 90%,
-    rgba(255, 191, 0) 95%, rgba(0, 0, 0, 0) 95%,
-    rgba(0, 0, 0, 0) 99%, rgba(135, 67, 13, 1) 99%);
+      rgba(255, 255, 255, 0.1) 84%, rgba(135, 67, 13, 1) 84%,
+      rgba(135, 67, 13, 1) 90%, rgba(255, 191, 0) 90%,
+      rgba(255, 191, 0) 95%, rgba(0, 0, 0, 0) 95%,
+      rgba(0, 0, 0, 0) 99%, rgba(135, 67, 13, 1) 99%);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -46,7 +46,7 @@ nav .navbar-brand {
   border: 2px solid;
   border-radius: 0 10px 0 10px;
   padding: 5px;
-  background: linear-gradient(30deg,rgba(255, 191, 0),  #000, rgba(255, 191, 0));
+  background: linear-gradient(30deg, rgba(255, 191, 0), #000, rgba(255, 191, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -54,13 +54,14 @@ nav .navbar-brand {
 nav .nav-link {
   font-family: 'Righteous', cursive;
   text-decoration: none;
-  color: #000!important;
+  color: #000 !important;
   margin: 0px 10px;
   padding: 5px 5px;
   position: relative;
   z-index: 0;
   cursor: pointer;
 }
+
 nav .nav-link:after {
   position: absolute;
   left: 5px;
@@ -82,13 +83,14 @@ nav .nav-link:hover:after {
   opacity: 1;
   transform: translateX(5px);
 }
-nav .nav-link{
 
-}
-.nav-item{
+nav .nav-link {}
+
+.nav-item {
   display: inline-flex;
 }
-nav span i{
+
+nav span i {
   color: #000;
   visibility: hidden;
 }
@@ -104,60 +106,40 @@ nav span i{
 @media(max-width: 1000px) {}
 
 @media (max-width: 600px) {
-  body{
+  body {
     overflow-x: hidden;
+    background-image: none;
   }
-  nav{
 
+  nav {
     background-color: #fff;
+    display: flex;
+    justify-content: center;
   }
+
+  nav ul {
+    padding: 0;
+  }
+
+  nav a {
+    text-decoration: none !important;
+  }
+
   nav a .fas {
-    text-decoration: none!important;
-    color: #000!important;
-    margin: 0px 10px;
-    padding: 5px 5px;
-    position: relative;
-    z-index: 0;
+    color: #202124 !important;
     cursor: pointer;
-  }
-  nav a .fas:after {
-    position: absolute;
-    left: 10px;
-    height: 4px;
-    background: #000;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
-  }
-
-  nav a .fas:after {
-    width: 40px;
-    border-radius: 20px;
-    bottom: -5px;
-    transform: translateX(-10px);
-  }
-
-  nav a .fas:hover:after {
-    opacity: 1;
-    transform: translateX(-10px);
-}
-  nav a .fas{
     text-align: center;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 10px 20px 0 20px;
+  }
 
-  }
-  .nav-item{
-      display: inline-flex;
-  }
-  nav .nav-link{
+  nav .nav-link {
     display: none;
   }
-  nav span i{
-    text-decoration: none!important;
+
+  nav span i {
+    text-decoration: none !important;
     color: #000;
     font-size: 20px;
     visibility: visible;
-
   }
 }
