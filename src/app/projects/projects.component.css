@@ -107,7 +107,7 @@ button {
   margin: auto;
   position: absolute;
   box-sizing: border-box;
-  transition: .6s;
+  transition: all .5s ease;
 }
 
 .card .imgBx {
