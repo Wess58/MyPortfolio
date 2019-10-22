@@ -33,7 +33,6 @@ img {
   opacity: 0.5;
   transform: rotate(45deg);
   -webkit-animation: clockwiseRotation 200s infinite linear;
-
 }
 
 #darkblue_blob {
@@ -45,7 +44,6 @@ img {
   z-index: -10;
   transform: rotate(-10deg);
   -webkit-animation: clockwiseRotation 300s infinite linear;
-
 }
 
 #brown_blob {
@@ -58,9 +56,9 @@ img {
   width: 400px;
   opacity: 0.5;
   -webkit-animation: antiClockwiseRotation 200s infinite linear;
-
 }
-#grey_blob2{
+
+#grey_blob2 {
   position: absolute;
   top: 400px;
   left: 200px;
@@ -76,8 +74,17 @@ h1 {
   font-family: 'Varela Round', sans-serif;
   font-weight: 600;
   color: #3c4043;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
+}
+.btn{
+  border: 2px solid #3F3D56;
+  border-radius: 4px;
+  width: 200px;
+  background-color: transparent;
+  color: #3F3D56;
+  font-weight: 900;
+  text-decoration: none!important;
 }
 
 .names {
@@ -100,11 +107,6 @@ h1 {
   animation: slide 2s linear 1; */
 }
 
-.Aboutme a {
-  color: #000;
-  text-decoration: underline;
-}
-
 @keyframes slide {
   from {
     opacity: 0;
@@ -124,6 +126,7 @@ h1 {
     opacity: 1;
   }
 }
+
 /* ******************************************* */
 /* Arrow & Hover Animation START*/
 #more-arrows {
@@ -159,34 +162,35 @@ polygon.arrow-top {
   opacity: 0.5;
 }
 
-
 /* ********************************************** */
 /* Rotation Animation START */
-
-
 @-webkit-keyframes clockwiseRotation {
-		from {
-				-webkit-transform: rotate( );
-		}
-		to {
-				-webkit-transform: rotate(359deg);
-		}
+  from {
+    -webkit-transform: rotate();
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @-webkit-keyframes antiClockwiseRotation {
-		from {
-				-webkit-transform: rotate( );
-		}
-		to {
-				-webkit-transform: rotate(-359deg);
-		}
+  from {
+    -webkit-transform: rotate();
+  }
+
+  to {
+    -webkit-transform: rotate(-360deg);
+  }
 }
+
 /* CLASS FOR MEDIA QUERIES */
 @media (max-width: 1920px) {
-  .cont{
+  .cont {
     min-height: 70vh;
   }
 }
+
 @media (max-width: 1280px) {}
 
 @media (max-width: 700px) {

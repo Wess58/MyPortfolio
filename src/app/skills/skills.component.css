@@ -25,6 +25,7 @@
 
 
 h2 {
+  color: #3c4043;
   font-family: 'Unlock', cursive;
   text-align: center;
   font-size: 40px;
@@ -32,16 +33,18 @@ h2 {
 }
 
 h4 {
+  color: #3c4043;
   font-family: 'Righteous', cursive;
 }
 
 h6 {
+  color: #3c4043;
   font-family: 'Righteous', cursive;
 }
 
 p {
   letter-spacing: 1px;
-  color: #403d3d;
+  color: #80868b;
 }
 
 a {
@@ -63,12 +66,12 @@ img {
   border-radius: 15px;
   border-style: none;
   background-color: #fff;
-  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 23px 0 rgba(0, 0, 0, 0.09);
 }
 
 .BorderB {
   position: absolute;
-  background: #000;
+  background: #3c4043;
   width: 50px;
   height: 5px;
   border-radius: 20px;
@@ -94,7 +97,6 @@ img {
 #Java:hover .BorderB {
   position: absolute;
   background: #5382a1;
-  top: 120px;
   height: 5px;
   width: 100px;
   border-radius: 20px;
@@ -107,7 +109,6 @@ img {
 #Angular:hover .BorderB {
   position: absolute;
   background: #de2323;
-  top: 120px;
   height: 5px;
   width: 100px;
   border-radius: 20px;
