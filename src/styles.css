@@ -3,44 +3,16 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,700);
 
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
 body {
   font-family: 'Exo', sans-serif;
-  /* background-image: linear-gradient(45deg,
-      rgba(255, 255, 255, 0.1) 84%, rgba(135, 67, 13, 1) 84%,
-      rgba(135, 67, 13, 1) 90%, rgba(255, 191, 0) 90%,
-      rgba(255, 191, 0) 95%, rgba(0, 0, 0, 0) 95%,
-      rgba(0, 0, 0, 0) 99%, rgba(135, 67, 13, 1) 99%) */
-
-    /* linear-gradient(225deg,
-      rgba(255, 255, 255, 0.1) 84%, rgba(135, 67, 13, 1) 84%,
-      rgba(135, 67, 13, 1) 90%, rgba(255, 191, 0) 90%,
-      rgba(255, 191, 0) 95%, rgba(0, 0, 0, 0) 95%,
-      rgba(0, 0, 0, 0) 99%, rgba(135, 67, 13, 1) 99%) */
-      ;
-  /* background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; */
-}
-
-button {
-  border-radius: 50%;
-  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
 
 /* NAVBAR */
 nav {
   background-color: #fff;
-  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
-  color: #fff !important;
+  box-shadow: 0 5px 24px 0 rgba(0, 0, 0, 0.1);
 }
 
 nav .navbar-brand {
@@ -56,7 +28,7 @@ nav .navbar-brand {
 nav .nav-link {
   font-family: 'Righteous', cursive;
   text-decoration: none;
-  color: #000 !important;
+  color: #3c4043 !important;
   margin: 0px 10px;
   padding: 5px 5px;
   position: relative;
@@ -71,7 +43,7 @@ nav .nav-link:after {
   background: #000;
   content: "";
   opacity: 0;
-  transition: all 0.3s;
+  transition: all .2s ease;
 }
 
 nav .nav-link:after {
@@ -92,6 +64,11 @@ nav .nav-link {}
   display: inline-flex;
 }
 
+nav ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 nav span i {
   color: #000;
   visibility: hidden;
@@ -107,20 +84,14 @@ nav span i {
 /* CLASS FOR MEDIA QUERIES */
 @media(max-width: 1000px) {}
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   body {
     overflow-x: hidden;
-    background-image: none;
   }
 
-  nav {
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-  }
-
-  nav ul {
-    padding: 0;
+  nav ul li a:nth-child(2) {
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   nav a {
@@ -128,20 +99,16 @@ nav span i {
   }
 
   nav a .fas {
-    color: #202124 !important;
+    color: #3c4043 !important;
     cursor: pointer;
     text-align: center;
-    margin: 10px 20px 0 20px;
+    margin: 5px 15px;
+    font-size: 20px;
+    visibility: visible;
+    text-decoration: none !important;
   }
 
   nav .nav-link {
     display: none;
-  }
-
-  nav span i {
-    text-decoration: none !important;
-    color: #000;
-    font-size: 20px;
-    visibility: visible;
   }
 }

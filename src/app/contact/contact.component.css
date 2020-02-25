@@ -219,9 +219,12 @@ figure .caption {
 /* CARD HOVER EFFECT END */
 
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .Form {
     margin: auto;
+  }
+  figure{
+    display: none;
   }
   footer{
     margin-top: 20%;

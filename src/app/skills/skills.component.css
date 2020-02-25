@@ -14,15 +14,13 @@
   color: #fff;
   font-size: 16px;
   font-weight: 600;
-
 }
 
-::ng-deep .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar .mat-primary .mat-ink-bar{
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar .mat-primary .mat-ink-bar {
   background: #000;
   height: 3px;
   border-radius: 5px;
 }
-
 
 h2 {
   color: #3c4043;
@@ -161,6 +159,7 @@ img {
 @media only screen and (max-width: 700px) {
   .skillsContainer {
     margin-top: 1rem;
+    margin-bottom: 10vh;
   }
 
   .notAvgContainer img {
@@ -173,6 +172,15 @@ img {
 
   .notAvgContainer h6 {
     text-decoration: underline;
+  }
+
+  .cardSkills {
+    padding: 20px 10px;
+    text-align: center;
+    height: 230px;
+  }
+  .cardSkills p{
+    font-size: 14px;
   }
 
   .BorderB {
