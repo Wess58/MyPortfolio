@@ -6,13 +6,13 @@
 .main h1 {
   font-family: 'Varela Round', sans-serif;
   font-weight: 600;
-  color: #3c4043;
+  color: #f1f1f1;
   font-size: 50px;
   text-transform: uppercase;
 }
 
 .main h4 {
-  color: #3F3D56;
+  color: #f1d3bb;
   font-weight: 600;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .Aboutme {
-  color: #80868b;
+  color: #f1f1f1;
   padding: 20px;
   margin-bottom: 2em;
   font-size: 16px;

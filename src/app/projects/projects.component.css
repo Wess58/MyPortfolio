@@ -8,26 +8,34 @@ h2 {
   text-align: center;
   font-size: 40px;
   text-decoration: underline;
+  color: #f1f1f1;
 }
 
 h4 {
   font-family: 'Righteous', cursive;
   text-decoration: overline;
   text-align: center;
-  margin-top: 5%;
-}
-h6{
+  margin: 20px 0px;
+  color: #f1f1f1;
 
+}
+
+h6 {
   letter-spacing: 1px;
   font-size: 20px;
+  color: #f1f1f1;
 }
+
 h6 span {
   font-weight: 600;
 }
 
-#myGithub{
+hr {
+  background-color: #fff;
+}
 
-  color: #000!important;
+#myGithub {
+  color: #000 !important;
   cursor: pointer;
 }
 
@@ -50,7 +58,8 @@ button {
   border-radius: 50%;
   border: 2px solid #fff;
 }
-#drone{
+
+#drone {
   width: 250px;
   height: 250px;
   margin-top: 35%;
@@ -97,7 +106,7 @@ button {
   margin: auto;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 50px 50px 10px rgba(0, 0, 0, 0.4  );
+  box-shadow: 0 50px 50px 10px rgba(0, 0, 0, 0.4);
 }
 
 .card .imgBx,
@@ -148,10 +157,11 @@ button {
   color: #fff;
 }
 
-@media  (max-width: 700px) {
-  h4{
+@media (max-width: 700px) {
+  h4 {
     margin-top: 10%;
   }
+
   .projectsContainer {
     margin-bottom: 20%;
   }

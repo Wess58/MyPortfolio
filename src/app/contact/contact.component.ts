@@ -9,6 +9,8 @@ export class ContactComponent implements OnInit {
   position = ['above'];
   hideDelay = 3000;
 
+  year:any = new Date().getFullYear();
+
 
   constructor() { }
 

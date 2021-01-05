@@ -2,17 +2,22 @@
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,700);
+@import '../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/solid.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/brands.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 body {
   font-family: 'Exo', sans-serif;
   scroll-behavior: smooth;
   overflow-x: hidden !important;
+  background-color: #212121;
 }
 
 /* NAVBAR */
 nav {
-  background-color: #fff;
-  box-shadow: 0 5px 24px 0 rgba(0, 0, 0, 0.1);
+  background-color: #212121;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0,0.9);
 }
 
 nav .navbar-brand {
@@ -26,9 +31,11 @@ nav .navbar-brand {
 }
 
 nav .nav-link {
-  font-family: 'Righteous', cursive;
+  /* font-family: 'Righteous', cursive; */
   text-decoration: none;
-  color: #3c4043 !important;
+  color: #f1f1f1 !important;
+  font-weight: 600;
+  letter-spacing: 1px;
   margin: 0px 10px;
   padding: 5px 5px;
   position: relative;
@@ -38,9 +45,9 @@ nav .nav-link {
 
 nav .nav-link:after {
   position: absolute;
-  left: 5px;
+  left: 0px;
   height: 4px;
-  background: #000;
+  background: #f1f1f1;
   content: "";
   opacity: 0;
   transition: all .2s ease;
@@ -70,7 +77,7 @@ nav ul {
 }
 
 nav span i {
-  color: #000;
+  color: #f1f1f1;
   visibility: hidden;
 }
 
@@ -99,7 +106,7 @@ nav span i {
   }
 
   nav a .fas {
-    color: #3c4043 !important;
+    color: #fff !important;
     cursor: pointer;
     text-align: center;
     margin: 5px 15px;

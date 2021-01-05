@@ -24,21 +24,26 @@ form {
 }
 
 .GetInTouch .row {
-
   margin: 10px;
 }
-.GetInTouch h2{
+
+.GetInTouch h2 {
   font-family: 'Unlock', cursive;
-text-decoration: underline;
+  text-decoration: underline;
 }
 
+.GetInTouch span i {
+  font-size: 2rem;
+  margin-right: 10px;
+}
 
 .GetInTouch img {
   width: 30px;
   height: 30px;
   margin: 10px;
 }
-.GetInTouch p{
+
+.GetInTouch p {
   font-family: 'Exo', sans-serif;
   color: #fff;
   padding: 5px;
@@ -67,8 +72,12 @@ form textarea {
 /* FOOTER STYLE */
 footer {
   padding: 0;
-  color: #515A5A;
+  color: #f1f1f1 !important;
   font-family: 'Righteous', cursive;
+}
+
+footer a {
+  color: #f1f1f1 !important;
 }
 
 ::ng-deep .bottom_tooltip {
@@ -81,22 +90,20 @@ footer {
 
 .bottom {
   font-size: 40px;
-  color: #000;
+  color: #f1f1f1;
   padding: -0.5em;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
   transition: all .8s cubic-bezier(0.645, 0.045, 0.355, 1);
-
 }
 
 .bottom:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
-
 }
 
 .contact {
-  color: #000;
+  color: #f1f1f1;
   font-family: 'Righteous', cursive;
   text-align: center;
 }
@@ -217,17 +224,16 @@ figure .caption {
 }
 
 /* CARD HOVER EFFECT END */
-
-
 @media (max-width: 770px) {
   .Form {
     margin: auto;
   }
-  figure{
+
+  figure {
     display: none;
   }
-  footer{
+
+  footer {
     margin-top: 20%;
   }
-
 }

@@ -8,29 +8,27 @@
           <h2>Get in Touch</h2>
           <p>Have a project you'd like to embark or partner on? Let's create awesome User Experiences together.</p>
           <div class="row">
-            <img src="assets/images/map-pin-marked.png" title="Location">
+            <span><i class="fas fa-map-marked-alt"></i></span>
             <p>Nairobi, Kenya</p>
           </div>
 
           <div class="row">
-            <img src="assets/images/telephone-symbol-button.png" title="Call">
-            <p>+254 703 926 058</p>
+            <span><i class="fab fa-whatsapp"></i></span>
+            <p>
+              <a class="text-white" href="https://wa.me/254703926058?text=Hello%20Wes,%20I'm%20interested%20in%20your%20work..." target="_blank">
+                +254 703 926 058
+              </a>
+            </p>
           </div>
 
           <div class="row">
-            <img src="assets/images/black-envelope.png" title="Email">
+            <span><i class="far fa-envelope"></i></span>
             <p>wesleymbate@gmail.com</p>
           </div>
-
-          <div class="row">
-            <img src="assets/images/whatsapp.png" title="Whatsapp">
-            <p>+254 703 926 058 <br> +254 732 938 770</p>
-          </div>
-
         </div>
       </div>
 
-      <div  class="col-md-7" style="display:flex;justify-content:center;align-items:center;">
+      <div class="col-md-7" style="display:flex;justify-content:center;align-items:center;">
         <div>
           <figure class="front">
             <div class="caption">
@@ -48,7 +46,7 @@
         </div>
       </div>
 
-<!--
+      <!--
       <div class="col-xs-12 col-md-7 mt-5">
         <form class="form-group" action="index.html" method="post" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="20">
           <div class="row" style="display:flex;justify-content:center;align-items:center;">
@@ -67,7 +65,7 @@
       </div> -->
 
     </div>
-    <footer data-aos="fade-up" data-aos-duration="1000" data-aos-offset="0">
+    <footer>
       <div id="bottom" style="display:flex;justify-content:center;align-items:center;">
         <a href="https://www.Linkedin.com/in/wesley-mbate-b1b206177" target="_blank">
           <span><i matTooltip="LinkedIn" [matTooltipPosition]="position" matTooltipClass="bottom_tooltip" class="fab fa-linkedin-in bottom mx-4 mb-3"></i></span>
@@ -83,10 +81,8 @@
     </footer>
     <div class="contact justify-content-center">
       <p>&#9400;
-        <script>
-          var currentYear = new Date().getFullYear();
-          document.write(currentYear);
-        </script>2019 wesleymbate - All Rights Reserved.</p>
+        {{year}} - All Rights Reserved.
+      </p>
 
     </div>
   </div>
