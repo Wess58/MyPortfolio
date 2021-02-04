@@ -117,7 +117,7 @@ figure {
   width: 450px;
   height: 270px;
   border-radius: 5px;
-  background-image: linear-gradient(45deg, #2e5d5a 70%, #fff 70%, #fff 80%, rgba(255, 191, 0) 80%, rgba(255, 191, 0) 90%, #fff 90%, #fff 98%, #2e5d5a 98%);
+  background-image: linear-gradient(45deg, #2e5d5a 70%, #fff 70%, #fff 80%, rgb(255, 191, 0) 80%, rgb(255, 191, 0) 90%, #fff 90%, #fff 98%, #2e5d5a 98%);
   backface-visibility: hidden;
   overflow: hidden;
   position: relative;
@@ -191,7 +191,7 @@ figure .caption {
 }
 
 .front:hover h1 span {
-  color: rgba(255, 191, 0);
+  color: rgb(255, 191, 0);
 }
 
 .front:hover h1 {
