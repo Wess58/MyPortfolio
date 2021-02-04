@@ -1,68 +1,91 @@
-.notAvgContainer {
-  box-shadow: 0 0 0 0;
-}
-
 .skillsContainer {
   margin-bottom: 5vh;
   background-color: transparent;
   border-radius: 5px;
-  overflow-y: hidden;
-
-  hr {
-    background-color: #fff;
-  }
 
   h2 {
     color: #f1f1f1;
-    font-family: 'Unlock', cursive;
+    font-family: 'Varela Round', sans-serif;
     text-align: center;
-    font-size: 40px;
-    text-decoration: underline;
-  }
-
-  h4 {
-    color: #f1f1f1;
-    font-family: 'Righteous', cursive;
-  }
-
-  h6 {
-    color: #f1f1f1;
-    font-family: 'Righteous', cursive;
-  }
-
-  p {
+    font-weight: 600;
     letter-spacing: 1px;
-    color: #f1f1f1;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+
+    span {
+      border-bottom: 3px solid #f1f1f155;
+    }
   }
 
-  a {
-    color: black;
-    text-decoration: underline;
+  .switch-tab {
+    border-bottom: 0.1px solid #f1f1f155;
+    margin-top: 20px;
+
+    .tab {
+      color: #f1f1f1;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+    }
   }
 
-  img {
-    width: 60px;
-    height: 60px;
-    margin: 10px 10px 10px 0;
+  .languages {
+    .cardSkills {
+      padding: 10px;
+      width: 100%;
+      min-height: 300px;
+      border-radius: 15px;
+      border-style: none;
+      background-color: #3c4043;
+      box-shadow: 0 0 23px 0 rgba(0, 0, 0, 0.09);
+
+      img {
+        width: 60px;
+        height: 60px;
+        margin: 10px 10px 10px 0;
+      }
+
+      h4 {
+        color: #f1f1f1;
+        font-family: 'Varela Round', sans-serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+
+      p {
+        letter-spacing: 1px;
+        color: #f1f1f1;
+      }
+    }
   }
 
-  .cardSkills {
-    font-family: 'Exo', sans-serif;
-    padding: 10px;
-    width: 350px;
-    height: 300px;
-    border-radius: 15px;
-    border-style: none;
-    background-color: #3c4043;
-    box-shadow: 0 0 23px 0 rgba(0, 0, 0, 0.09);
+  .education {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    h4 {
+      color: #f1f1f1;
+      font-family: 'Varela Round', sans-serif;
+      font-weight: bold;
+    }
+
+    p {
+      letter-spacing: 1px;
+      color: #f1f1f1;
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      margin: 10px 10px 10px 0;
+    }
   }
 
-  .eduContainer h4 a,
-  .eduContainer p {
+  .education h4 a,
+  .education p {
     color: #f1f1f1!important;
   }
 
-  .eduContainer i.fa-certificate {
+  .education i.fa-certificate {
     font-size: 2rem;
     margin-right: 10px;
     color: #f1f1f1;
@@ -125,19 +148,21 @@
   }
 
   #html .BorderB {
-    top: 100px;
+    top: 110px;
   }
 
   #html:hover #HTML .BorderB {
     background: #e34f26;
+    height: 5px;
+    width: 80px;
+    border-radius: 20px;
   }
 
   #html:hover #CSS .BorderB {
     background: #2fbdf1;
-  }
-
-  #html:hover #Bootstrap .BorderB {
-    background: #3339d0;
+    height: 5px;
+    width: 80px;
+    border-radius: 20px;
   }
 
   #IDE .BorderB {
@@ -156,6 +181,10 @@
     width: 200px;
     height: 100px;
   }
+}
+
+.borderBottom {
+  border-bottom: 3px solid #f1f1f1!important;
 }
 
 ::ng-deep .mat-tab-label,
@@ -184,15 +213,15 @@
     margin-bottom: 10vh;
   }
 
-  .notAvgContainer img {
+  .languages img {
     display: none;
   }
 
-  .notAvgContainer h4 {
+  .languages h4 {
     text-decoration: underline;
   }
 
-  .notAvgContainer h6 {
+  .languages h6 {
     text-decoration: underline;
   }
 

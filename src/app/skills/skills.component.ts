@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
+
+
 
 
 @Component({
@@ -9,9 +12,21 @@ import { Component, OnInit } from '@angular/core';
 
 })
 export class SkillsComponent implements OnInit {
+
   constructor() { }
 
+  tab: string = 'languages';
+
   ngOnInit() {
+  }
+
+
+  changedTab(tab): void {
+    console.log(tab);
+    this.tab = tab;
+
+    AOS.init();
+
   }
 
 }
