@@ -1,162 +1,158 @@
 .projectsContainer {
   margin-bottom: 5%;
   background-color: transparent;
+
+  h2 {
+    font-family: 'Unlock', cursive;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    color: #f1f1f1;
+  }
+
+  h4 {
+    font-family: 'Righteous', cursive;
+    text-decoration: overline;
+    text-align: center;
+    margin: 20px 0;
+    color: #f1f1f1;
+  }
+
+  h6 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #f1f1f1;
+  }
+
+  h6 span {
+    font-weight: 600;
+  }
+
+  hr {
+    background-color: #fff;
+  }
+
+  #myGithub {
+    color: #000 !important;
+    cursor: pointer;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+
+  button {
+    margin-top: 3px;
+  }
+  /* individual card styles */
+  #art {
+    width: 250px;
+    height: 250px;
+    margin-top: 30%;
+    margin-left: 7%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+
+  #drone {
+    width: 250px;
+    height: 250px;
+    margin-top: 35%;
+    margin-left: 8%;
+  }
+
+  #github {
+    width: 275px;
+    height: 275px;
+    margin-left: 5px;
+    margin-top: 27%;
+  }
+
+  #wildlife {
+    width: 280px;
+    height: 280px;
+    margin-top: 30%;
+  }
+
+  .cardart .details,
+  .cardart .imgBx {
+    background-image: linear-gradient(30deg, #D35400, black);
+  }
+
+  .cardDrone .details,
+  .cardDrone .imgBx {
+    background-image: linear-gradient(30deg, #048DC5, black);
+  }
+
+  .cardgithub .details,
+  .cardgithub .imgBx {
+    background-image: linear-gradient(30deg, #21618C, black);
+  }
+
+  .cardwidlife .details,
+  .cardwidlife .imgBx {
+    background-image: linear-gradient(30deg, #27AE60, black);
+  }
+  /* CARDS STYLES */
+  .card {
+    width: 290px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 50px 50px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .card .details,
+  .card .imgBx {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+  }
+
+  .card .imgBx {
+    top: 0;
+    left: 0;
+  }
+
+  .card:hover .imgBx {
+    top: 0;
+    left: -100%;
+  }
+
+  .card .imgBx img {
+    width: 100%;
+  }
+
+  .card .details {
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+  }
+
+  .card:hover .details {
+    top: 0;
+    left: 0;
+  }
+
+  .card .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+  }
+
+  .card .details p {
+    margin: 20px 0 0;
+    color: #fff;
+  }
 }
-
-h2 {
-  font-family: 'Unlock', cursive;
-  text-align: center;
-  font-size: 40px;
-  text-decoration: underline;
-  color: #f1f1f1;
-}
-
-h4 {
-  font-family: 'Righteous', cursive;
-  text-decoration: overline;
-  text-align: center;
-  margin: 20px 0px;
-  color: #f1f1f1;
-
-}
-
-h6 {
-  letter-spacing: 1px;
-  font-size: 20px;
-  color: #f1f1f1;
-}
-
-h6 span {
-  font-weight: 600;
-}
-
-hr {
-  background-color: #fff;
-}
-
-#myGithub {
-  color: #000 !important;
-  cursor: pointer;
-}
-
-img {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-}
-
-button {
-  margin-top: 3px;
-}
-
-/* individual card styles */
-#art {
-  width: 250px;
-  height: 250px;
-  margin-top: 30%;
-  margin-left: 7%;
-  border-radius: 50%;
-  border: 2px solid #fff;
-}
-
-#drone {
-  width: 250px;
-  height: 250px;
-  margin-top: 35%;
-  margin-left: 8%;
-}
-
-#github {
-  width: 275px;
-  height: 275px;
-  margin-left: 5px;
-  margin-top: 27%;
-}
-
-#wildlife {
-  width: 280px;
-  height: 280px;
-  margin-top: 30%;
-}
-
-.cardart .imgBx,
-.cardart .details {
-  background-image: linear-gradient(30deg, #D35400, black);
-}
-
-.cardDrone .imgBx,
-.cardDrone .details {
-  background-image: linear-gradient(30deg, #048DC5, black);
-}
-
-.cardgithub .imgBx,
-.cardgithub .details {
-  background-image: linear-gradient(30deg, #21618C, black);
-}
-
-.cardwidlife .imgBx,
-.cardwidlife .details {
-  background-image: linear-gradient(30deg, #27AE60, black);
-}
-
-/* CARDS STYLES */
-.card {
-  width: 290px;
-  height: 500px;
-  margin: auto;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 50px 50px 10px rgba(0, 0, 0, 0.4);
-}
-
-.card .imgBx,
-.card .details {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  position: absolute;
-  box-sizing: border-box;
-  transition: all .5s ease;
-}
-
-.card .imgBx {
-  top: 0;
-  left: 0;
-}
-
-.card:hover .imgBx {
-  top: 0;
-  left: -100%;
-}
-
-.card .imgBx img {
-  width: 100%;
-}
-
-.card .details {
-  top: 0;
-  left: 100%;
-  padding: 60px 30px;
-}
-
-.card:hover .details {
-  top: 0;
-  left: 0%;
-}
-
-.card .details h2 {
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  padding: 0 0 10px;
-  border-bottom: 2px solid #fff;
-}
-
-.card .details p {
-  margin: 20px 0 0;
-  color: #fff;
-}
-
 @media (max-width: 700px) {
   h4 {
     margin-top: 10%;

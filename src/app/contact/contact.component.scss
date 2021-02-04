@@ -5,7 +5,7 @@
 
 .contactContainer {
   color: #fff;
-  padding: 20px 10px 10px 10px;
+  padding: 20px 10px 10px;
   background-color: transparent;
   border-radius: 5px;
 }
@@ -23,50 +23,53 @@ form {
   color: #fff;
 }
 
-.GetInTouch .row {
-  margin: 10px;
+.GetInTouch {
+  .row {
+    margin: 10px;
+  }
+
+  h2 {
+    font-family: 'Unlock', cursive;
+    text-decoration: underline;
+  }
+
+  span i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+
+  p {
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+    padding: 5px;
+    letter-spacing: 1px;
+  }
 }
 
-.GetInTouch h2 {
-  font-family: 'Unlock', cursive;
-  text-decoration: underline;
-}
-
-.GetInTouch span i {
-  font-size: 2rem;
-  margin-right: 10px;
-}
-
-.GetInTouch img {
-  width: 30px;
-  height: 30px;
-  margin: 10px;
-}
-
-.GetInTouch p {
-  font-family: 'Exo', sans-serif;
-  color: #fff;
-  padding: 5px;
-  letter-spacing: 1px;
-}
-
-form input {
-  width: 100%;
-  padding: 2%;
-  margin-bottom: 5%;
-  border-radius: 5px;
-  outline-style: none;
-  border: 2px solid;
-  background: transparent;
-}
-
-form textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  outline-style: none;
-  border: 2px solid;
-  background: transparent;
+form {
+  input {
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    outline-style: none;
+    border: 2px solid;
+    background: transparent;
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline-style: none;
+    border: 2px solid;
+    background: transparent;
+  }
 }
 
 /* FOOTER STYLE */
@@ -74,10 +77,11 @@ footer {
   padding: 0;
   color: #f1f1f1 !important;
   font-family: 'Righteous', cursive;
-}
 
-footer a {
-  color: #f1f1f1 !important;
+  a {
+   color: #f1f1f1 !important;
+ }
+
 }
 
 ::ng-deep .bottom_tooltip {
@@ -92,9 +96,9 @@ footer a {
   font-size: 40px;
   color: #f1f1f1;
   padding: -0.5em;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-  transition: transform .8s ease-in-out;
-  transition: all .8s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .bottom:hover {
@@ -107,7 +111,6 @@ footer a {
   font-family: 'Righteous', cursive;
   text-align: center;
 }
-
 /* CARD HOVER EFFECT START */
 figure {
   font-weight: 400;
@@ -203,7 +206,6 @@ figure .caption {
 .front:hover h1:after {
   transform: translate3d(0, 0, 0);
 }
-
 /* DIRECTION OF HIDDEN CONTENT AND FEATURES */
 .front p {
   letter-spacing: 1px;
@@ -222,7 +224,6 @@ figure .caption {
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
-
 /* CARD HOVER EFFECT END */
 @media (max-width: 770px) {
   .Form {

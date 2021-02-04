@@ -7,175 +7,177 @@
   background-color: transparent;
   border-radius: 5px;
   overflow-y: hidden;
-}
-// 
-// ::ng-deep .mat-tab-labels,::ng-deep .mat-tab-label, ::ng-deep.mat-tab-label-content,::ng-deep .mat-tab-link {
-//   font-family: 'Exo', sans-serif;
-//   color: #fff!important;
-//   font-size: 16px;
-//   font-weight: 600;
-// }
-//
-// ::ng-deep .mat-tab-group.mat-primary .mat-ink-bar, ::ng-deep.mat-tab-nav-bar .mat-primary .mat-ink-bar {
-//   background: #f1f1f1;
-//   height: 3px;
-//   border-radius: 5px;
-// }
-//
-// ::ng-deep .mat-tab-header{
-//   border-bottom: 1px solid #f1f1f1;
-// }
 
-hr{
-  background-color: #fff;
+  hr {
+    background-color: #fff;
+  }
+
+  h2 {
+    color: #f1f1f1;
+    font-family: 'Unlock', cursive;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+  }
+
+  h4 {
+    color: #f1f1f1;
+    font-family: 'Righteous', cursive;
+  }
+
+  h6 {
+    color: #f1f1f1;
+    font-family: 'Righteous', cursive;
+  }
+
+  p {
+    letter-spacing: 1px;
+    color: #f1f1f1;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 10px 10px 0;
+  }
+
+  .cardSkills {
+    font-family: 'Exo', sans-serif;
+    padding: 10px;
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #3c4043;
+    box-shadow: 0 0 23px 0 rgba(0, 0, 0, 0.09);
+  }
+
+  .eduContainer h4 a,
+  .eduContainer p {
+    color: #f1f1f1!important;
+  }
+
+  .eduContainer i.fa-certificate {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #f1f1f1;
+  }
+
+  .BorderB {
+    position: absolute;
+    background: #3c4043;
+    width: 50px;
+    height: 5px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+
+  #Android .BorderB {
+    top: 120px;
+  }
+
+  #Android:hover .BorderB {
+    position: absolute;
+    background: #A4C639;
+    height: 5px;
+    width: 100px;
+    border-radius: 20px;
+  }
+
+  #Java .BorderB {
+    top: 120px;
+  }
+
+  #Java:hover .BorderB {
+    position: absolute;
+    background: #5382a1;
+    height: 5px;
+    width: 100px;
+    border-radius: 20px;
+  }
+
+  #Angular .BorderB {
+    top: 122px;
+  }
+
+  #Angular:hover .BorderB {
+    position: absolute;
+    background: #de2323;
+    height: 5px;
+    width: 100px;
+    border-radius: 20px;
+  }
+
+  #Spark .BorderB {
+    top: 120px;
+  }
+
+  #Spark:hover .BorderB {
+    background: #ff811b;
+    height: 5px;
+    width: 100px;
+    border-radius: 20px;
+  }
+
+  #html .BorderB {
+    top: 100px;
+  }
+
+  #html:hover #HTML .BorderB {
+    background: #e34f26;
+  }
+
+  #html:hover #CSS .BorderB {
+    background: #2fbdf1;
+  }
+
+  #html:hover #Bootstrap .BorderB {
+    background: #3339d0;
+  }
+
+  #IDE .BorderB {
+    top: 120px;
+  }
+
+  #IDE:hover .BorderB {
+    position: absolute;
+    background: #BAE7F5;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+  }
+
+  #moringalogo {
+    width: 200px;
+    height: 100px;
+  }
 }
 
-h2 {
-  color: #f1f1f1;
-  font-family: 'Unlock', cursive;
-  text-align: center;
-  font-size: 40px;
-  text-decoration: underline;
-}
-
-h4 {
-  color: #f1f1f1;
-  font-family: 'Righteous', cursive;
-}
-
-h6 {
-  color: #f1f1f1;
-  font-family: 'Righteous', cursive;
-}
-
-p {
-  letter-spacing: 1px;
-  color: #f1f1f1;
-}
-
-a {
-  color: black;
-  text-decoration: underline;
-}
-
-img {
-  width: 60px;
-  height: 60px;
-  margin: 10px;
-  margin-left: 0px!important;
-}
-
-.cardSkills {
+::ng-deep .mat-tab-label,
+::ng-deep .mat-tab-labels,
+::ng-deep .mat-tab-link,
+::ng-deep.mat-tab-label-content {
   font-family: 'Exo', sans-serif;
-  padding: 10px;
-  width: 350px;
-  height: 300px;
-  border-radius: 15px;
-  border-style: none;
-  background-color: #3c4043;
-  box-shadow: 0 0 23px 0 rgba(0, 0, 0, 0.09);
-}
-.eduContainer p,
-.eduContainer h4 a{
-  color: #f1f1f1!important;
+  color: #fff!important;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.eduContainer i.fa-certificate{
-  font-size: 2rem;
-  margin-right: 10px;
-  color: #f1f1f1;
+::ng-deep .mat-tab-group.mat-primary .mat-ink-bar,
+::ng-deep.mat-tab-nav-bar .mat-primary .mat-ink-bar {
+  background: #f1f1f1;
+  height: 3px;
+  border-radius: 5px;
 }
 
-
-.BorderB {
-  position: absolute;
-  background: #3c4043;
-  width: 50px;
-  height: 5px;
-  border-radius: 20px;
-  transition: all .3s ease;
+::ng-deep .mat-tab-header {
+  border-bottom: 1px solid #f1f1f1;
 }
-
-#Android .BorderB {
-  top: 120px;
-}
-
-#Android:hover .BorderB {
-  position: absolute;
-  background: #A4C639;
-  height: 5px;
-  width: 100px;
-  border-radius: 20px;
-}
-
-#Java .BorderB {
-  top: 120px;
-}
-
-#Java:hover .BorderB {
-  position: absolute;
-  background: #5382a1;
-  height: 5px;
-  width: 100px;
-  border-radius: 20px;
-}
-
-#Angular .BorderB {
-  top: 122px;
-}
-
-#Angular:hover .BorderB {
-  position: absolute;
-  background: #de2323;
-  height: 5px;
-  width: 100px;
-  border-radius: 20px;
-}
-
-#Spark .BorderB {
-  top: 120px;
-}
-
-#Spark:hover .BorderB {
-  background: #ff811b;
-  height: 5px;
-  width: 100px;
-  border-radius: 20px;
-}
-
-#html .BorderB {
-  top: 100px;
-}
-
-#html:hover #HTML .BorderB {
-  background: #e34f26;
-}
-
-#html:hover #CSS .BorderB {
-  background: #2fbdf1;
-}
-
-#html:hover #Bootstrap .BorderB {
-  background: #3339d0;
-}
-
-#IDE .BorderB {
-  top: 120px;
-}
-
-#IDE:hover .BorderB {
-  position: absolute;
-  background: #BAE7F5;
-  width: 100px;
-  height: 5px;
-  border-radius: 20px;
-}
-
-#moringalogo {
-  width: 200px;
-  height: 100px;
-}
-
 @media only screen and (max-width: 700px) {
   .skillsContainer {
     margin-top: 1rem;
@@ -199,7 +201,8 @@ img {
     text-align: center;
     height: 230px;
   }
-  .cardSkills p{
+
+  .cardSkills p {
     font-size: 14px;
   }
 
