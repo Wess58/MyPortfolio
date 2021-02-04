@@ -74,6 +74,14 @@
     -o-webkit-animation: clockwiseRotation 200s infinite linear;
     animation: clockwiseRotation 200s infinite linear;
   }
+  #webDev_svg::selection,
+  #grey_blob::selection,
+  #darkblue_blob::selection,
+  #brown_blob::selection,
+  #grey_blob2::selection{
+    background-color: transparent!important;
+  }
+
 
   .callToAction {
     /* border: 2px solid #3F3D56; */

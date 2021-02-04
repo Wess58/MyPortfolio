@@ -3,33 +3,39 @@
   background-color: transparent;
 
   h2 {
-    font-family: 'Unlock', cursive;
-    text-align: center;
-    font-size: 40px;
-    text-decoration: underline;
     color: #f1f1f1;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+
+    span {
+      border-bottom: 3px solid #f1f1f155;
+    }
   }
 
   h4 {
-    font-family: 'Righteous', cursive;
-    text-decoration: overline;
+    font-family: 'Varela Round', sans-serif;
     text-align: center;
     margin: 20px 0;
     color: #f1f1f1;
+
+    span {
+      padding-top: 5px;
+      border-top: 2px solid #f1f1f155;
+    }
   }
 
   h6 {
     letter-spacing: 1px;
     font-size: 20px;
     color: #f1f1f1;
-  }
 
-  h6 span {
-    font-weight: 600;
-  }
-
-  hr {
-    background-color: #fff;
+    span {
+      font-weight: 600;
+    }
   }
 
   #myGithub {
@@ -151,6 +157,17 @@
   .card .details p {
     margin: 20px 0 0;
     color: #fff;
+  }
+
+  .card .action-btn {
+    background-color: #fff;
+    margin-top: 20px;
+
+    a {
+      color: #3c4043!important;
+      text-decoration: none!important;
+      outline: none!important;
+    }
   }
 }
 @media (max-width: 700px) {

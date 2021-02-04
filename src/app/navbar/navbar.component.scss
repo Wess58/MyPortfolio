@@ -74,7 +74,7 @@ nav {
 @media (max-width: 760px) {
   nav {
     ul li a:nth-child(2) {
-      margin: 0 !important;
+      margin: 0px !important;
       padding: 0 !important;
     }
 
@@ -90,10 +90,10 @@ nav {
         visibility: visible;
         text-decoration: none !important;
       }
+    }
 
-      .nav-link {
-        display: none;
-      }
+    .nav-link {
+      display: none;
     }
   }
 }

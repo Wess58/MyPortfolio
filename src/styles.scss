@@ -13,3 +13,13 @@ body {
   overflow-x: hidden !important;
   background-color: #212121;
 }
+
+::selection {
+  color: #5f6063;
+  background-color: #f1f1f1!important;
+}
+@media (max-width: 760px) {
+  body {
+    overflow-x: hidden!important;
+  }
+}

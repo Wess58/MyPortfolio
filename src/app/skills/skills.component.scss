@@ -45,6 +45,10 @@
         margin: 10px 10px 10px 0;
       }
 
+      img::selection {
+        background-color: transparent!important;
+      }
+
       h4 {
         color: #f1f1f1;
         font-family: 'Varela Round', sans-serif;
@@ -62,10 +66,15 @@
   .education {
     margin-top: 5vh;
     margin-bottom: 10vh;
+
     h4 {
       color: #f1f1f1;
       font-family: 'Varela Round', sans-serif;
       font-weight: bold;
+      a{
+        color: #f1f1f1;
+
+      }
     }
 
     p {
@@ -78,17 +87,12 @@
       height: 60px;
       margin: 10px 10px 10px 0;
     }
-  }
 
-  .education h4 a,
-  .education p {
-    color: #f1f1f1!important;
-  }
-
-  .education i.fa-certificate {
-    font-size: 2rem;
-    margin-right: 10px;
-    color: #f1f1f1;
+    i.fa-certificate {
+      font-size: 2rem;
+      margin-right: 10px;
+      color: #f1f1f1;
+    }
   }
 
   .BorderB {
@@ -213,9 +217,9 @@
     margin-bottom: 10vh;
   }
 
-  .languages img {
-    display: none;
-  }
+  // .languages img {
+  //   display: none;
+  // }
 
   .languages h4 {
     text-decoration: underline;
@@ -237,5 +241,15 @@
 
   .BorderB {
     display: none;
+  }
+
+  .text-ms-left{
+    text-align: left!important;
+  }
+  .text-ms-center{
+    text-align: center!important;
+  }
+  .text-ms-right{
+    text-align: right!important;
   }
 }
