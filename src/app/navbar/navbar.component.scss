@@ -73,8 +73,9 @@ nav {
 @media(max-width: 1000px) {}
 @media (max-width: 760px) {
   nav {
+    padding: 0px!important;
     ul li a:nth-child(2) {
-      margin: 0px !important;
+      margin: 0px 3px !important;
       padding: 0 !important;
     }
 

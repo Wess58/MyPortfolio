@@ -211,28 +211,27 @@
 ::ng-deep .mat-tab-header {
   border-bottom: 1px solid #f1f1f1;
 }
+
+
+// ************************************************
+// MEDIA QUERIES
+// *****************************************
+//
+// 
 @media only screen and (max-width: 700px) {
   .skillsContainer {
     margin-top: 1rem;
     margin-bottom: 10vh;
+    padding: 0px 20px!important;
   }
-
-  // .languages img {
-  //   display: none;
-  // }
 
   .languages h4 {
-    text-decoration: underline;
-  }
-
-  .languages h6 {
-    text-decoration: underline;
+    margin-bottom: 0px!important;
   }
 
   .cardSkills {
-    padding: 20px 10px;
     text-align: center;
-    height: 230px;
+    min-height: auto!important;
   }
 
   .cardSkills p {
@@ -241,15 +240,5 @@
 
   .BorderB {
     display: none;
-  }
-
-  .text-ms-left{
-    text-align: left!important;
-  }
-  .text-ms-center{
-    text-align: center!important;
-  }
-  .text-ms-right{
-    text-align: right!important;
   }
 }

@@ -147,14 +147,18 @@
 @media (max-width: 1280px) {}
 @media (max-width: 770px) {
   .main {
-    overflow-x: hidden;
+    overflow-x: hidden!important;
     margin-top: 0;
     margin-bottom: 10vh;
     padding: 5vh 0;
   }
 
   #webDev_svg {
-    width: 300px;
+    width: 300px!important;
+  }
+
+  .Aboutme{
+    margin-top: -100px!important;
   }
 
   #brown_blob,
