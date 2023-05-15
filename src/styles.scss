@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import './assets/css/font-exo.css';
+@import './assets/css/font-varela-round.css';
+// @import '../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css';
+// @import '../node_modules/@fortawesome/fontawesome-free/css/solid.css';
+// @import '../node_modules/@fortawesome/fontawesome-free/css/brands.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,700);
+
+body {
+  font-family: 'Exo', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  background-color: #212121;
+}
+
+::selection {
+  color: #5f6063;
+  background-color: #f1f1f1!important;
+}
+@media (max-width: 760px) {
+  body {
+    overflow-x: hidden!important;
+  }
+
+  .text-ms-left {
+    text-align: left!important;
+  }
+
+  .text-ms-center {
+    text-align: center!important;
+  }
+
+  .text-ms-right {
+    text-align: right!important;
+  }
+}

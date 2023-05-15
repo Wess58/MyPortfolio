@@ -1,0 +1,239 @@
+.projectsContainer {
+  margin-bottom: 5%;
+  background-color: transparent;
+
+  h2 {
+    color: #f1f1f1;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+
+    span {
+      border-bottom: 3px solid #f1f1f155;
+    }
+  }
+
+  h4 {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    color: #f1f1f1;
+
+    span {
+      padding-top: 5px;
+      border-top: 2px solid #f1f1f155;
+    }
+  }
+
+  h6 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #f1f1f1;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  #myGithub {
+    color: #000 !important;
+    cursor: pointer;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+
+  button {
+    margin-top: 3px;
+  }
+  /* individual card styles */
+  #kejua {
+    width: 250px;
+    height: 250px;
+    font-size: 10rem;
+    color: #fff;
+    margin-top: 30%;
+    margin-left: 7%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #e77154;
+    font-family: sans-serif;
+  }
+
+  .mulika-box {
+    width: 250px;
+    height: 250px;
+    margin-top: 30%;
+    margin-left: 7%;
+    border-radius: 50%!important;
+    background-color: #f1f1f1;
+    padding: 40px 0px 0px 10px;
+
+    #mulika {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .safway-box {
+    width: 250px;
+    height: 250px;
+    margin-top: 30%;
+    margin-left: 7%;
+    border-radius: 50%!important;
+    background-color: #f1f1f1;
+    padding: 30px 0px 0px 0px;
+
+    #safariway {
+      width: 180px;
+      height: 180px;
+    }
+  }
+
+  #art {
+    width: 250px;
+    height: 250px;
+    margin-top: 30%;
+    margin-left: 7%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+
+  #drone {
+    width: 250px;
+    height: 250px;
+    margin-top: 35%;
+    margin-left: 8%;
+  }
+
+  #github {
+    width: 275px;
+    height: 275px;
+    margin-left: 5px;
+    margin-top: 27%;
+  }
+
+  #wildlife {
+    width: 280px;
+    height: 280px;
+    margin-top: 30%;
+  }
+
+  .cardKejua .details,
+  .cardKejua .imgBx {
+    background-image: linear-gradient(30deg, #e77154, black);
+  }
+
+  .cardMulika .details,
+  .cardMulika .imgBx {
+    background-image: linear-gradient(30deg, #18224B, black);
+  }
+  .cardSafway .details,
+  .cardSafway .imgBx {
+    background-image: linear-gradient(30deg, #CFA32B, black);
+  }
+
+
+  .cardart .details,
+  .cardart .imgBx {
+    background-image: linear-gradient(30deg, #D35400, black);
+  }
+
+  .cardDrone .details,
+  .cardDrone .imgBx {
+    background-image: linear-gradient(30deg, #048DC5, black);
+  }
+
+  .cardgithub .details,
+  .cardgithub .imgBx {
+    background-image: linear-gradient(30deg, #21618C, black);
+  }
+
+  .cardwidlife .details,
+  .cardwidlife .imgBx {
+    background-image: linear-gradient(30deg, #27AE60, black);
+  }
+  /* CARDS STYLES */
+  .card {
+    width: 290px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 50px 50px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .card .details,
+  .card .imgBx {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+  }
+
+  .card .imgBx {
+    top: 0;
+    left: 0;
+  }
+
+  .card:hover .imgBx {
+    top: 0;
+    left: -100%;
+  }
+
+  .card .imgBx img {
+    width: 100%;
+  }
+
+  .card .details {
+    top: 0;
+    left: 100%;
+    padding: 30px;
+  }
+
+  .card:hover .details {
+    top: 0;
+    left: 0;
+  }
+
+  .card .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+  }
+
+  .card .details p {
+    margin: 20px 0 0;
+    color: #fff;
+  }
+
+  .card .action-btn {
+    background-color: #fff;
+    margin-top: 20px;
+
+    a {
+      color: #3c4043!important;
+      text-decoration: none!important;
+      outline: none!important;
+    }
+  }
+}
+@media (max-width: 700px) {
+  h4 {
+    margin-top: 10%;
+  }
+
+  .projectsContainer {
+    margin-bottom: 20%;
+  }
+}

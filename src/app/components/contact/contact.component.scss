@@ -1,0 +1,240 @@
+.contactFluid {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+
+.contactContainer {
+  color: #fff;
+  padding: 20px 10px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 20px;
+}
+
+form {
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.GetInTouch {
+  .row {
+    margin: 10px;
+  }
+
+  h2 {
+    font-family: 'Unlock', cursive;
+    text-decoration: underline;
+  }
+
+  span i {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+
+  p {
+    font-family: 'Exo', sans-serif;
+    color: #fff;
+    padding: 5px;
+    letter-spacing: 1px;
+  }
+}
+
+form {
+  input {
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    outline-style: none;
+    border: 2px solid;
+    background: transparent;
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline-style: none;
+    border: 2px solid;
+    background: transparent;
+  }
+}
+
+/* FOOTER STYLE */
+footer {
+  padding: 0;
+  color: #f1f1f1 !important;
+  font-family: 'Righteous', cursive;
+
+  a {
+   color: #f1f1f1 !important;
+ }
+
+}
+
+::ng-deep .bottom_tooltip {
+  background: #258bf1;
+}
+
+#bottom {
+  margin-top: 5%;
+}
+
+.bottom {
+  font-size: 40px;
+  color: #f1f1f1;
+  padding: -0.5em;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.bottom:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.contact {
+  color: #f1f1f1;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+}
+/* CARD HOVER EFFECT START */
+figure {
+  font-weight: 400;
+  font-size: 1.05em;
+  color: #fff;
+  font-family: 'Raleway', Arial, sans-serif;
+  width: 450px;
+  height: 270px;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #2e5d5a 70%, #fff 70%, #fff 80%, rgb(255, 191, 0) 80%, rgb(255, 191, 0) 90%, #fff 90%, #fff 98%, #2e5d5a 98%);
+  backface-visibility: hidden;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  margin-bottom: 10%;
+  box-shadow: 0 50px 40px 5px rgba(0, 0, 0, 0.3);
+}
+
+figure .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  padding: 2em;
+}
+
+.front .caption {
+  font-size: 1.5em;
+}
+
+.front .caption:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  content: '';
+  opacity: 0;
+  transform: translate3d(0, 50%, 0);
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+.front:hover .caption:before {
+  opacity: 0.8;
+  transform: translate3d(0, 0, 0);
+}
+
+.front h1 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+  font-size: 1.6em;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  color: #000;
+  transition: transform 0.35s, color 0.35s;
+  transform: translate3d(0, -50%, 0);
+}
+
+.front h1 span {
+  font-weight: bold;
+}
+
+.front h1:after {
+  position: absolute;
+  bottom: -10px;
+  left: 70px;
+  right: 70px;
+  height: 2px;
+  background: #fff;
+  content: '';
+  transition: transform 0.35s;
+  transform: translate3d(-130%, 0, 0);
+}
+
+.front:hover h1 span {
+  color: rgb(255, 191, 0);
+}
+
+.front:hover h1 {
+  color: #fff;
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -70px, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, -70px, 0);
+}
+
+.front:hover h1:after {
+  transform: translate3d(0, 0, 0);
+}
+/* DIRECTION OF HIDDEN CONTENT AND FEATURES */
+.front p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2em;
+  width: 100%;
+  opacity: 0;
+  transform: translate3d(0, 80px, 0);
+  transition: opacity 0.5s, transform 0.35s;
+}
+
+.front:hover p {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+/* CARD HOVER EFFECT END */
+@media (max-width: 770px) {
+  .Form {
+    margin: auto;
+  }
+
+  figure {
+    display: none;
+  }
+
+  footer {
+    margin-top: 20%;
+  }
+}

@@ -1,0 +1,158 @@
+<div id="skills" class="container skillsContainer">
+
+  <div>
+    <h2><span>Skills</span></h2>
+  </div>
+
+
+  <div class="row switch-tab">
+    <div class="tab d-inline" [ngClass]="{'borderBottom':tab === 'languages'}" (click)="changedTab('languages')">
+      Languages
+    </div>
+    <div class="tab d-inline" [ngClass]="{'borderBottom':tab === 'education'}" (click)="changedTab('education')">
+      Education
+    </div>
+
+  </div>
+
+
+  <div class="languages" *ngIf="tab === 'languages'">
+
+    <div class="row">
+      <div class="col-md-4  mt-5" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+        <div class="card cardSkills" id="Angular">
+          <div class="text-ms-center">
+            <img src="assets/images/angular.png">
+          </div>
+          <h4>Angular FrameWork</h4>
+          <div class="BorderB"></div>
+
+          <p class="mt-3">It's a structural framework for dynamic web apps. It lets you use HTML as your template language and extend HTML's syntax to express your application's components clearly and succinctly.</p>
+        </div>
+
+      </div>
+      <div class="col-md-4  mt-5" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+        <div class="card cardSkills" id="Android">
+          <div class="text-ms-center">
+            <img src="assets/images/android.png">
+
+          </div>
+          <h4>Android</h4>
+          <div class="BorderB"></div>
+
+          <p class="mt-3">Android is a Google’s mobile operating system, built off of Java. It is designed primarily for touch screen mobile devices to watches, TVs and more.</p>
+        </div>
+      </div>
+      <div class="col-md-4  mt-5" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+        <div class="card cardSkills" id="Java">
+          <div class="text-ms-center">
+            <img src="assets/images/java.png">
+
+          </div>
+
+          <h4>Java8</h4>
+          <div class="BorderB"></div>
+
+          <p class="mt-3">Java is a High-Level programming language that produces software for multiple platforms including Android, Windows, Linux and Mac OS.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-4  my-5" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+        <div class="card cardSkills" id="Spark">
+          <div class="text-ms-center">
+            <img src="assets/images/spark.svg">
+
+          </div>
+          <h4>Spark Framework</h4>
+
+          <div class="BorderB"></div>
+
+          <p class="mt-2">Spark Framework is a simple and expressive Java web framework DSL built for rapid development. Sparks intention is to provide an alternative for Java developers that want web expressive applications.</p>
+        </div>
+
+      </div>
+      <div class="col-md-4  my-5" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1000">
+        <div class="card cardSkills" id="html">
+          <div class="row html">
+            <div class="col-6 col-md-6" id="HTML">
+              <img src="assets/images/html.png">
+              <h4>HTML5</h4>
+
+              <div align="center">
+                <div class="BorderB"></div>
+              </div>
+
+            </div>
+            <div class="col-6 col-md-6" id="CSS">
+              <img src="assets/images/css.png">
+              <h4>CSS3</h4>
+
+              <div class="BorderB"></div>
+
+            </div>
+          </div>
+          <p class="mt-3">It's an authoring tool that is used in creating Internet Web pages. One can add Styling to HTML using CSS, BootStrap and other CSS frameworks</p>
+        </div>
+
+      </div>
+      <div class="col-md-4  my-5" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+        <div class="card cardSkills" id="IDE">
+          <div class="text-ms-center">
+            <img src="assets/images/maintenance.png">
+
+          </div>
+          <h4>Dev Environments</h4>
+          <div class="BorderB"></div>
+
+          <p class="mt-3"> IDEs provide comprehensive facilities to programmers for software development.Some I have used are like Atom, IntelliJ, Android Studio and Sublime.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="education" *ngIf="tab === 'education'">
+    <div class="row" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+      <div class="col-sm-12 col-md-6">
+        <h4><a href="https://www.moringaschool.com/">Moringa School</a></h4>
+        <p>June 2018 - Dec 2018</p>
+
+        <div class="row mb-2 pl-2">
+          <span><i class="fas fa-certificate"></i></span>
+          <p class="pt-1"> Certificate of Java-Android Mobile Development - 20weeks </p>
+        </div>
+        <div class="row pl-2">
+          <span><i class="fas fa-certificate"></i></span>
+          <p class="pt-1"> Certificate of Web Development - 5weeks </p>
+        </div>
+
+        <p>The learning-curve in Moringa is rigorous, the social ambiance is very involving and the level of skill finesse is quite unrivaled. I enjoyed the intense program with hours of practical coding, beating harsh deadlines and improving my
+          know-how as a stringent team-leader and virtuous team-member.
+          Very proficient in HTML, CSS & Bootstrap, XML, Angular & Spark frameworks and specialized in Java for Android Mobile Development.
+        </p>
+
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <h4><a href="https://www.kenyaplex.com/schools/917-kanunga-high-school.aspx">Kanunga High School</a></h4>
+
+        <p>Feb 2012 - November 2015 </p>
+
+        <div class="row pl-2">
+          <span><i class="fas fa-certificate"></i></span>
+          <p class="pt-1"> Certification: Kenya National Examination (KCSE) </p>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
