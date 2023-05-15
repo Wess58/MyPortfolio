@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Exo/Exo-normal-400.eot);
+  src: local('Exo'), url(../fonts/Exo/Exo-normal-400.woff) format('woff'), url(../fonts/Exo/Exo-normal-400.eot?#iefix) format('embedded-opentype'), url(../fonts/Exo/Exo-normal-400.ttf) format('truetype'), url(../fonts/Exo/Exo-normal-400.svg#Exo) format('svg'), url(../fonts/Exo/Exo-normal-400.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/Exo/Exo-normal-600.woff) format('woff'), url(../fonts/Exo/Exo-normal-600.ttf) format('truetype'), url(../fonts/Exo/Exo-normal-600.woff2) format('woff2');
+}
+

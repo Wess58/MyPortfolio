@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Varela Round';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Varela Round/Varela-Round-normal-400.eot);
+  src: local('Varela Round'), url(../fonts/Varela Round/Varela-Round-normal-400.woff) format('woff'), url(../fonts/Varela Round/Varela-Round-normal-400.svg#VarelaRound) format('svg'), url(../fonts/Varela Round/Varela-Round-normal-400.ttf) format('truetype'), url(../fonts/Varela Round/Varela-Round-normal-400.eot?#iefix) format('embedded-opentype'), url(../fonts/Varela Round/Varela-Round-normal-400.woff2) format('woff2');
+}
+
