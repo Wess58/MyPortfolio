@@ -1,59 +1,80 @@
-.skillsContainer {
-  margin-bottom: 5vh;
-  background-color: transparent;
-  border-radius: 5px;
-
-  h2 {
+#skills {
+  h3 {
     color: #f1f1f1;
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 2.5rem;
     text-transform: uppercase;
-
-    span {
-      border-bottom: 3px solid #f1f1f155;
-    }
   }
 
-  .switch-tab {
-    border-bottom: 0.1px solid #f1f1f155;
-    margin-top: 20px;
-
-    .tab {
-      color: #f1f1f1;
-      padding: 10px 20px;
-      cursor: pointer;
-      border-bottom: 3px solid transparent;
-    }
+  .section-description{
+    color: #f1f2f3;
+    max-width: 80%;
+    margin: 40px auto;
+    text-align: center;
   }
 
-  .languages {
-    .cardSkills {
-      padding: 10px;
-      width: 100%;
-      min-height: 300px;
-      border-radius: 15px;
-      border-style: none;
-      background-color: #3c4043;
-      box-shadow: 0 0 23px 0 rgba(0, 0, 0, 0.09);
+  .experience-tree {
+    .experience-item {
+      position: relative;
+      padding-bottom: 30px;
+      padding-left: 10px;
+      font-family: 'Varela Round', sans-serif;
 
-      img {
-        width: 60px;
-        height: 60px;
-        margin: 10px 10px 10px 0;
+      &:hover {
+        a {
+          color: #f1d3bb!important;
+          text-decoration: underline;
+        }
+        .border-connector,.dot-connector{
+          background-color: #f1d3bb;
+        }
       }
 
-      img::selection {
-        background-color: transparent!important;
+      &:last-child {
+        .border-connector {
+          display: none;
+        }
       }
 
-      h4 {
+      .dot-connector {
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: #5f6063;
+        display: inline-block;
+        position: absolute;
+        top: 3px;
+        left: -15px;
+        transition: all .2s;
+      }
+
+      .border-connector {
+        height: 70%;
+        width: 2px;
+        display: inline-block;
+        position: absolute;
+        left: -11px;
+        top: 18px;
+        background-color: #5f6063;
+        transition: all .2s;
+      }
+
+      h6 {
         color: #f1f1f1;
-        font-family: 'Varela Round', sans-serif;
-        font-weight: bold;
-        letter-spacing: 1px;
+        font-size: 1rem;
+
+        a {
+          color: #f1f1f1;
+          cursor: pointer;
+        }
+      }
+
+      .period {
+        display: block;
+        color: #f1f1f1;
+        font-size: 0.85rem;
       }
 
       p {
@@ -63,35 +84,19 @@
     }
   }
 
-  .education {
-    margin-top: 5vh;
-    margin-bottom: 10vh;
+  .skills-listing{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
-    h4 {
-      color: #f1f1f1;
-      font-family: 'Varela Round', sans-serif;
-      font-weight: bold;
-      a{
-        color: #f1f1f1;
-
-      }
-    }
-
-    p {
-      letter-spacing: 1px;
-      color: #f1f1f1;
-    }
-
-    img {
-      width: 60px;
-      height: 60px;
-      margin: 10px 10px 10px 0;
-    }
-
-    i.fa-certificate {
-      font-size: 2rem;
-      margin-right: 10px;
-      color: #f1f1f1;
+    .skill-item{
+      padding: 4px 15px;
+      margin: 10px;
+      font-size: 1rem;
+      background-color: transparent;
+      color: #f1d3bb;
+      border: 1px solid #f1d3bb;
+      border-radius: 0px;
     }
   }
 
@@ -211,8 +216,6 @@
 ::ng-deep .mat-tab-header {
   border-bottom: 1px solid #f1f1f1;
 }
-
-
 // ************************************************
 // MEDIA QUERIES
 // *****************************************
@@ -222,7 +225,7 @@
   .skillsContainer {
     margin-top: 1rem;
     margin-bottom: 10vh;
-    padding: 0px 20px!important;
+    padding: 0 20px!important !important;
   }
 
   .languages h4 {

@@ -1,0 +1,41 @@
+{
+  "experiences": [{
+      "company": "Meliora Technologies",
+      "website": "https://www.linkedin.com/company/melioratechnologieslimited/",
+      "role": "Lead Frontend Engineer",
+      "period": "Aug 2022 - Present · 10 mos",
+      "description": ""
+    },
+    {
+      "company": "Meliora Technologies",
+      "website": "https://www.linkedin.com/company/melioratechnologieslimited/",
+      "role": "Frontend Engineer",
+      "period": "Aug 2019 - Aug 2022 · 3 yrs 1 mo",
+      "description": ""
+    },
+    {
+      "company": "Meliora Technologies",
+      "website": "https://www.linkedin.com/company/melioratechnologieslimited/",
+      "role": "Software Engineer",
+      "period": "March 2019 - Jul 2019 · 5 mos",
+      "description": ""
+    },
+    {
+      "company": "Moringa School",
+      "website": "https://www.linkedin.com/school/moringa-school/",
+      "role": "Web and Android Development",
+      "period": "Jun 2018 - Jan 2019",
+      "description": ""
+    },
+    {
+      "company": "Moringa School",
+      "website": "https://www.linkedin.com/school/moringa-school/",
+      "role": "Studies in Computer Science",
+      "period": "Sep 2016 - May 2018",
+      "description": ""
+    }
+  ],
+  "skillsList": [
+    "Angular", "Angular JS", "Typescript", "Javascript", "Writing Cross-Browser Code", "HTML", "CSS", "SASS", "Bootstrap", "Tailwind css", "Responsive Design", "Docker products", "Kubernetes", "Java", "Android"
+  ]
+}
