@@ -1,4 +1,5 @@
 #skills {
+  scroll-margin-top: 100px!important;
 
   .experience-tree {
     .experience-item {
@@ -12,7 +13,9 @@
           color: #f1d3bb!important;
           text-decoration: underline;
         }
-        .border-connector,.dot-connector{
+
+        .border-connector,
+        .dot-connector {
           background-color: #f1d3bb;
         }
       }
@@ -32,7 +35,7 @@
         position: absolute;
         top: 3px;
         left: -15px;
-        transition: all .2s;
+        transition: all 0.2s;
       }
 
       .border-connector {
@@ -43,7 +46,7 @@
         left: -11px;
         top: 18px;
         background-color: #5f6063;
-        transition: all .2s;
+        transition: all 0.2s;
       }
 
       h6 {
@@ -69,19 +72,19 @@
     }
   }
 
-  .skills-listing{
+  .skills-listing {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
-    .skill-item{
+    .skill-item {
       padding: 4px 15px;
       margin: 10px;
       font-size: 1rem;
       background-color: transparent;
       color: #f1d3bb;
       border: 1px solid #f1d3bb;
-      border-radius: 0px;
+      border-radius: 0;
     }
   }
 
