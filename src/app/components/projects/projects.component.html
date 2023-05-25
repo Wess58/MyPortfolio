@@ -1,191 +1,40 @@
-<div id="projects" class="container projectsContainer">
+<div id="projects" class="container projects-container">
+
+  <h3 class="section-title">Projects</h3>
 
 
-  <div class="">
-    <h2><span>Projects</span></h2>
+  <div class="featured-projects-listing">
+    <div class="project-item" *ngFor="let project of keyProjects;index as i" [ngClass]="{'flex-row-reverse':i%2}">
 
-    <h6 class="text-center my-5">Have a dive into projects from a <span>variety of languages</span> - from <span>Java</span> for Android <br>Apps to <span>Typescript</span> for some powerful Angular Web Apps. </h6>
-
-  </div>
-
-
-
-
-  <div class="row">
-    <div class="col-md-4 ">
-      <h4><span>KEJUA</span></h4>
-
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" class="card cardKejua">
-        <div class="imgBx text-center">
-          <div id="kejua">
-            K
-          </div>
-        </div>
-        <div class="details">
-          <!-- <h4>Gitsearch WebApp</h4> -->
-          <p>
-            A platform conceived and set up by a diverse team of Kenyans who are passionate about the Domestic Tourism Market and Holidays.
-            The platform provides a range of accommodation options available in certain regions, giving you not only a chance to compare facilities but also applicable seasonal rates.
-          </p>
-
-
-          <button class="btn action-btn btn-sm" name="button">
-            <a href="https://kejua.com/" target="_blank">
-              Live Site
-            </a>
-          </button>
-
+      <div class="col-md-6">
+        <div class="project-img-holder" data-aos="fade-up" data-aos-offset="70" data-aos-duration="1000">
+          <img [src]="project.imgUrl" alt="project-illustration">
         </div>
       </div>
-    </div>
 
-    <div class="col-md-4 ">
-      <h4><span>MULIKA</span></h4>
+      <div class="col-md-6">
 
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150" class="card cardMulika">
-        <div class="imgBx">
-
-          <div class="mulika-box text-center">
-            <img id="mulika" src="assets/images/Mulika.svg">
-
+        <div class="project-details right-align" [ngClass]="{'left-align': i%2}">
+          <div class="card" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1200">
+            <h4>{{project.name}}</h4>
+            <p>{{project.description}}</p>
+            <div class="technologies">
+              <span *ngFor="let tech of project.technologies">{{tech}}</span>
+            </div>
+            <div class="action-btns">
+              <a [href]="project.githubLink" target="_blank" title="Github" class="btn btn-github"><i class="fa-brands fa-github"></i></a>
+              <a [href]="project.liveLink" target="_blank" title="Live site" class="btn btn-live"><i class="fa-solid fa-circle-arrow-right"></i></a>
+            </div>
           </div>
         </div>
-        <div class="details">
-          <!-- <h4>Gitsearch WebApp</h4> -->
-          <p>Mulika is a monitoring platform that continuously records a set of metrics that measure system performance to provide a Visualization Dashboard for users to easily identify when their services experience failures or success.</p>
-
-          <button class="btn action-btn btn-sm" name="button">
-            <a href="https://mulika.meliora.co.ke" target="_blank">
-              Live Site
-            </a>
-          </button>
-
-        </div>
       </div>
-    </div>
 
-    <div class="col-md-4 ">
-      <h4><span>SAFARIWAY</span></h4>
-
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200" class="card cardSafway">
-        <div class="imgBx">
-          <div class="safway-box text-center">
-            <img id="safariway" src="assets/images/Safariway.svg">
-          </div>
-        </div>
-        <div class="details">
-          <!-- <h4>Gitsearch WebApp</h4> -->
-          <p>Safariway is a Tourism-centered Web Application that helps an organization share information seamlessly and timely within the organization
-            and among other industry players on a simple and secure platform, enabling you handle
-            more business requests, resulting in happier clients and higher profitability.</p>
-
-        </div>
-      </div>
     </div>
   </div>
 
-  <div class="row mt-5">
-
-    <div class="col-md-4">
-
-      <h4><span>ARTISSANS ANDROID</span></h4>
-
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" class="card cardart">
-        <div class="imgBx">
-
-          <img id="art" src="assets/images/art.png">
-
-        </div>
-        <div class="details">
-          <!-- <h4>Artissans App</h4> -->
-          <p>This Android App is aimed at providing artists in our time with a resolve for marketing their art and more so bridging the apparent gap between artists and clients.We provide a platform for emerging and established artists to exhibit,
-            promote, and share their works with an enthusiastic, art-centric community</p>
-
-          <button class="btn action-btn btn-sm">
-            <a href="https://github.com/Wess58/Artissans" target="_blank">
-              Visit on Github
-            </a>
-          </button>
-
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-
-      <h4><span>R-C QUADCOPTER</span></h4>
-
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="150" class="card cardDrone">
-        <div class="imgBx">
-
-          <img id="drone" src="assets/images/drone .png">
-
-        </div>
-        <div class="details">
-          <!-- <h4>R-C DRONE</h4> -->
-          <p>With the recent advancement in technology the commercial drone-users demand an innovative, cost-efficient and modulated solution to help in all applications of a drone.This drone controlled on an Android application, connected via WI-FI and tcp/ip protocol.C and C++ code is used to program the EEPROM.</p>
-
-          <button class="btn action-btn btn-sm">
-            <a href="https://github.com/zecollokaris/Remote-Control-Falcon-1-Quadcopter" target="_blank">
-              Visit on Github
-            </a>
-          </button>
-
-        </div>
-      </div>
-    </div>
+  <h5 class="secondary-section-title">Honorable mentions</h5>
 
 
-    <div class="col-md-4 ">
-      <h4><span>GITSEARCH WEB APP</span></h4>
-
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200" class="card cardgithub">
-        <div class="imgBx">
-
-          <img id="github" src="assets/images/github.png">
-        </div>
-        <div class="details">
-          <!-- <h4>Gitsearch WebApp</h4> -->
-          <p>This App is created to put to use Github's API that enables a user to search for github accounts,view certain details of an account, view repositories of that account and manoeuver to live links of repositories and github accounts.</p>
-
-          <button class="btn action-btn btn-sm">
-            <a href="https://github.com/Wess58/Gitsearch" target="_blank">
-              Visit on Github
-            </a>
-          </button>
-          <br>
-          <button class="btn action-btn btn-sm" name="button">
-            <a href="https://wess58.github.io/Gitsearch/" target="_blank">
-              Live Site
-            </a>
-          </button>
-
-        </div>
-      </div>
-    </div>
-    <!-- <div class=" col-md-4 ">
-      <h4>WILDLIFE-TRACKER</h4>
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="400" class="card cardwidlife">
-        <div class="imgBx">
-
-          <img id="wildlife" src="assets/images/elephant.png">
-        </div>
-        <div class="details">
-          <h2>Ulinzi Wildlife-Tracker</h2>
-          <p>This app allows Rangers to track wildlife sightings in the area, record them and ensure the animals are isolated to a safer zone. All with the help of a user-friendly interface and reliable database.</p>
-          <a href="https://github.com/Wess58/wildlife-tracker" target="_blank"><button class="btn action-btn btn-sm"> Visit on Github </button></a>
-          <br>
-          <a href="https://dry-sands-80956.herokuapp.com/" target="_blank"><button class="btn action-btn btn-sm" name="button">Live Site</button></a>
-        </div>
-      </div>
-    </div> -->
-  </div>
-
-  <br>
-  <br>
-  <br>
 
 
-  <h6 class="text-center my-5">Feel <span>intrigued</span> to see some more projects already? <br><br> Well , visit <span id="myGithub"><a href="https://github.com/Wess58" target="_blank">my github</a></span> to have a broader spect of what a
-    <span>young</span> programmer can do!
-  </h6>
 </div>

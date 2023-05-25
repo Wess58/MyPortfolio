@@ -17,9 +17,34 @@ body {
   background-color: transparent!important;
 }
 
+* img {
+  user-drag: none !important;
+  user-select: none !important;
+  -moz-user-select: none !important;
+  -webkit-user-drag: none !important;
+  -webkit-user-select: none !important;
+  -ms-user-select: none !important;
+}
+
 ::selection {
-  color: #5f6063;
-  background-color: #f1f1f1!important;
+  color: #f1f1f1;
+  background-color: #80868b!important;
+}
+
+.section-title,.secondary-section-title {
+  color: #f1f1f1;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.section-description {
+  color: #f1f2f3;
+  max-width: 80%;
+  margin: 40px auto;
+  text-align: center;
 }
 @media (max-width: 760px) {
   body {

@@ -1,239 +1,137 @@
-.projectsContainer {
-  margin-bottom: 5%;
-  background-color: transparent;
+.projects-container {
+  .section-title {
+    margin-bottom: 7vh;
+  }
 
-  h2 {
-    color: #f1f1f1;
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 2.5rem;
-    text-transform: uppercase;
+  .featured-projects-listing {
+    display: block;
 
-    span {
-      border-bottom: 3px solid #f1f1f155;
+    .project-item {
+      display: flex;
+      margin-bottom: 15vh;
+      position: relative;
+
+      &:hover {
+        .btn-live {
+          i {
+            transform: rotate(-45deg);
+          }
+        }
+      }
+
+      .project-img-holder {
+        z-index: 0;
+        position: relative;
+        border-radius: 2px;
+        overflow: hidden;
+
+        img {
+          width: 100%!important;
+          height: 320px!important;
+          object-fit: cover;
+          filter: brightness(70%);
+          border-radius: 2px;
+        }
+      }
+
+      .project-details {
+        width: 120%;
+        height: 320px;
+        display: flex;
+        align-items: center;
+        z-index: 100!important;
+        position: relative;
+
+        .card {
+          background-color: #333;
+          // box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);
+          box-shadow: 10px 15px 2px 0 rgba(0,0,0,0.2);
+          text-align: left;
+          padding: 20px;
+          border-radius: 7px;
+          height: fit-content;
+
+          h4 {
+            color: #f1d3bb;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+          }
+
+          p {
+            color: #f1f2f3;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+          }
+
+          .technologies {
+            margin-bottom: 15px;
+
+            span {
+              color: #80868b;
+              font-size: 0.8rem;
+              display: inline-block;
+              margin: 0 10px;
+
+              &:first-child{
+                margin-left: 0;
+              }
+            }
+          }
+
+          .action-btns {
+            .btn {
+              width: 40px;
+              height: 40px;
+              background-color: transparent;
+              text-align: center;
+              padding: 0;
+              display: inline-block;
+              margin: 0 10px;
+              border-radius: 50%;
+              border: 2px solid #f1f2f3;
+              color: #f1f2f3;
+              transition: all 0.2s;
+
+              &:hover {
+                border: 2px solid #f1f2f3!important;
+                color: #3c4043!important;
+                background-color: #f1f2f3!important;
+              }
+
+              &:first-child {
+                margin-left: 0;
+              }
+
+              i {
+                line-height: 38px;
+                vertical-align: middle;
+                transition: all 0.2s;
+              }
+            }
+          }
+        }
+      }
     }
   }
 
-  h4 {
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
-    margin: 20px 0;
-    color: #f1f1f1;
-
-    span {
-      padding-top: 5px;
-      border-top: 2px solid #f1f1f155;
-    }
-  }
-
-  h6 {
-    letter-spacing: 1px;
-    font-size: 20px;
-    color: #f1f1f1;
-
-    span {
-      font-weight: 600;
-    }
-  }
-
-  #myGithub {
-    color: #000 !important;
-    cursor: pointer;
-  }
-
-  img {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-  }
-
-  button {
-    margin-top: 3px;
-  }
-  /* individual card styles */
-  #kejua {
-    width: 250px;
-    height: 250px;
-    font-size: 10rem;
-    color: #fff;
-    margin-top: 30%;
-    margin-left: 7%;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    background-color: #e77154;
-    font-family: sans-serif;
-  }
-
-  .mulika-box {
-    width: 250px;
-    height: 250px;
-    margin-top: 30%;
-    margin-left: 7%;
-    border-radius: 50%!important;
-    background-color: #f1f1f1;
-    padding: 40px 0px 0px 10px;
-
-    #mulika {
-      width: 150px;
-      height: 150px;
-    }
-  }
-
-  .safway-box {
-    width: 250px;
-    height: 250px;
-    margin-top: 30%;
-    margin-left: 7%;
-    border-radius: 50%!important;
-    background-color: #f1f1f1;
-    padding: 30px 0px 0px 0px;
-
-    #safariway {
-      width: 180px;
-      height: 180px;
-    }
-  }
-
-  #art {
-    width: 250px;
-    height: 250px;
-    margin-top: 30%;
-    margin-left: 7%;
-    border-radius: 50%;
-    border: 2px solid #fff;
-  }
-
-  #drone {
-    width: 250px;
-    height: 250px;
-    margin-top: 35%;
-    margin-left: 8%;
-  }
-
-  #github {
-    width: 275px;
-    height: 275px;
-    margin-left: 5px;
-    margin-top: 27%;
-  }
-
-  #wildlife {
-    width: 280px;
-    height: 280px;
-    margin-top: 30%;
-  }
-
-  .cardKejua .details,
-  .cardKejua .imgBx {
-    background-image: linear-gradient(30deg, #e77154, black);
-  }
-
-  .cardMulika .details,
-  .cardMulika .imgBx {
-    background-image: linear-gradient(30deg, #18224B, black);
-  }
-  .cardSafway .details,
-  .cardSafway .imgBx {
-    background-image: linear-gradient(30deg, #CFA32B, black);
-  }
-
-
-  .cardart .details,
-  .cardart .imgBx {
-    background-image: linear-gradient(30deg, #D35400, black);
-  }
-
-  .cardDrone .details,
-  .cardDrone .imgBx {
-    background-image: linear-gradient(30deg, #048DC5, black);
-  }
-
-  .cardgithub .details,
-  .cardgithub .imgBx {
-    background-image: linear-gradient(30deg, #21618C, black);
-  }
-
-  .cardwidlife .details,
-  .cardwidlife .imgBx {
-    background-image: linear-gradient(30deg, #27AE60, black);
-  }
-  /* CARDS STYLES */
-  .card {
-    width: 290px;
-    height: 400px;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 50px 50px 10px rgba(0, 0, 0, 0.4);
-  }
-
-  .card .details,
-  .card .imgBx {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    position: absolute;
-    box-sizing: border-box;
-    transition: all 0.5s ease;
-  }
-
-  .card .imgBx {
-    top: 0;
+  .left-align {
+    position: relative;
     left: 0;
   }
 
-  .card:hover .imgBx {
-    top: 0;
-    left: -100%;
+  .right-align {
+    position: relative;
+    right: 100px;
   }
-
-  .card .imgBx img {
-    width: 100%;
-  }
-
-  .card .details {
-    top: 0;
-    left: 100%;
-    padding: 30px;
-  }
-
-  .card:hover .details {
-    top: 0;
-    left: 0;
-  }
-
-  .card .details h2 {
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    padding: 0 0 10px;
-    border-bottom: 2px solid #fff;
-  }
-
-  .card .details p {
-    margin: 20px 0 0;
-    color: #fff;
-  }
-
-  .card .action-btn {
-    background-color: #fff;
-    margin-top: 20px;
-
-    a {
-      color: #3c4043!important;
-      text-decoration: none!important;
-      outline: none!important;
-    }
-  }
-}
-@media (max-width: 700px) {
-  h4 {
-    margin-top: 10%;
-  }
-
-  .projectsContainer {
-    margin-bottom: 20%;
-  }
+  // .odd-project-item{
+  //   .project-img-holder{
+  //     order: 2;
+  //   }
+  //   .project-details{
+  //     order: 1;
+  //   }
+  // }
 }

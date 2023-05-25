@@ -1,0 +1,99 @@
+{
+   "keyProjects":[
+      {
+         "name":"Bake Connect",
+         "description":"This is an Angular-based Web application that enables home bakers to record and manage their customers' orders, payments and allow them send tailored notifications by via SMS.",
+         "technologies":[
+            "Angular",
+            "Typescript",
+            "Java",
+            "Springboot"
+         ],
+         "githubLink":"",
+         "liveLink":"https://bakeconnect.app/",
+         "imgUrl":"assets/images/projects/baked-sc.png"
+      },
+      {
+         "name":"kekes Reading Nook",
+         "description":"This is an Angular-based platform that allows users to browse through a wide genre of books and rent them based on their subscription plan from a home-librarian who hopes to nurture a community with reading-culture for generations to come.",
+         "technologies":[
+            "Angular",
+            "Typescript",
+            "Java",
+            "Springboot"
+         ],
+         "githubLink":"",
+         "liveLink":"https://kekesreadingnook.com/",
+         "imgUrl":"assets/images/projects/kekes-sc.png"
+      },
+      {
+         "name":"Gitsearch App",
+         "description":"This Angular web application is created to use Github's API to enable user search for github accounts. View certain details of an account, public repositories of that account and maneuver to live-links or public github repos to the projects.",
+         "technologies":[
+            "Angular",
+            "Typescript",
+            "Github APIs"
+         ],
+         "githubLink":"https://github.com/Wess58/Gitsearch",
+         "liveLink":"https://wess58.github.io/Gitsearch/",
+         "imgUrl":"assets/images/projects/gitsearch-sc.png"
+      },
+      {
+         "name":"Decalogue International",
+         "description":"Developed and launched a responsive website for Decalogue International Ltd using Angular framework. Collaborated with the company's team to create a user-friendly interface and experience optimized for site performance. A lot of user testing was carried out to ensure peak overall functionality was delivered.",
+         "technologies":[
+            "Angular",
+            "Typescript",
+            "HTML",
+            "CSS"
+         ],
+         "githubLink":"",
+         "liveLink":"http://www.decalogue.co.ke/",
+         "imgUrl":"assets/images/projects/decalogue-sc.png"
+      },
+      {
+         "name":"Artfolio",
+         "description":"Developed and launched a responsive website to display my art projects. It's goal was to allow interested clientele to have access to the full gallery of my art works and allow website visitors from referral links to have alternative means of contacting from the website.",
+         "technologies":[
+            "Angular",
+            "Typescript",
+            "Bootstrap"
+         ],
+         "githubLink":"https://github.com/Wess58/artfolio/",
+         "liveLink":"https://wess58.github.io/artfolio/",
+         "imgUrl":"assets/images/projects/artfolio-sc.png"
+      }
+   ],
+   "otherProjects":[
+      {
+         "name":"KCB Mobi-reg",
+         "description":"This project seeked to collapse multi-step service requests into one complex service-request initiated and approved, do Inter-dependency processing. Provide better visibility of complex actions for better experience by giving users the ability to view automatic processing of statuses to individual operations and abstract asynchronous APIs for a seamless experience.",
+         "githubLink":"",
+         "liveLink":""
+      },
+      {
+         "name":"Meliora Technologies",
+         "description":"Developed and launched a responsive website for Meliora Technologies to create an awareness of the services, internal projects as well as project collaborations.It also sort to help better communicate with the world about the company story / history and other activities the company is participating in.",
+         "githubLink":"",
+         "liveLink":"https://www.meliora.co.ke/"
+      },
+      {
+         "name":"Mulika",
+         "description":"THis is a monitoring platform that continuously records a set of metrics that measure system performance to provide a Visualization Dashboard for users to easily identify when their services experience failures or success. It has key features such as Real Time Monitoring , Data Visualization , Alerts with configurable service thresholds, Ease of Integration using database queries, logs analysis or using a simple HTTP API.",
+         "githubLink":"",
+         "liveLink":""
+      },
+      {
+         "name":"Tecom",
+         "description":"Developed and launched a responsive website to allow an Information Technology Repair company to reach to an organic audience.The goal of the website was to enable clients find tech services and get assistance through a carefully thought out contacting experience that enables both client and tech assistant to follow up conversations via email.",
+         "githubLink":"",
+         "liveLink":"https://tecomadvance.com/"
+      },
+      {
+         "name":"Kejua",
+         "description":"This is an Angular-based Web application that lists a well thought out catalog of accredited accommodation options in Kenya, with applicable rates for the domestic market that apply to east africa community citizens and residents. It was conceived and set up by a diverse team of Kenyans who are passionate about the Domestic Tourism Market and Holidays",
+         "githubLink":"",
+         "liveLink":"https://kejua.com"
+      }
+   ]
+}
