@@ -209,27 +209,8 @@
 // *****************************************
 //
 //
-@media only screen and (max-width: 700px) {
-  .skillsContainer {
-    margin-top: 1rem;
+@media(max-width: 1000px) {
+  .skills-listing {
     margin-bottom: 10vh;
-    padding: 0 20px!important !important;
-  }
-
-  .languages h4 {
-    margin-bottom: 0px!important;
-  }
-
-  .cardSkills {
-    text-align: center;
-    min-height: auto!important;
-  }
-
-  .cardSkills p {
-    font-size: 14px;
-  }
-
-  .BorderB {
-    display: none;
   }
 }

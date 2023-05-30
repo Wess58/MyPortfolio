@@ -70,8 +70,7 @@
         border-radius: 50%;
         text-decoration: none !important;
         margin: 0 10px;
-        padding: 0;
-        padding-left: 4px;
+        padding: 0 0 0 4px;
         transition: all 0.2s;
         display: flex;
         justify-content: center;
@@ -158,24 +157,37 @@
 /* CLASS FOR MEDIA QUERIES */
 @media (max-width: 1920px) {}
 @media (max-width: 1280px) {}
-@media (max-width: 770px) {
+@media (max-width: 1000px) {
   .main {
-    overflow-x: hidden!important;
+    overflow: hidden!important;
     margin-top: 0;
-    margin-bottom: 10vh;
+    margin-bottom: 0;
     padding: 5vh 0;
+  }
+
+  .about-me {
+    margin-bottom: 0!important;
   }
 
   #webDev_svg {
     width: 300px!important;
   }
 
-  .Aboutme {
-    margin-top: -100px!important;
-  }
 
   #brown_blob,
-  #darkblue_blob {
+  #darkblue_blob,
+  #grey_blob2 {
     display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem!important;
+  }
+
+  h4 {
+    color: #f1d3bb;
+    font-weight: 600;
   }
 }

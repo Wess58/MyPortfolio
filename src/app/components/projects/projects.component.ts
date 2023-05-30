@@ -14,6 +14,6 @@ export class ProjectsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    // Aos.init();//AOS - 2
+    Aos.init();//AOS - 2
   }
 }

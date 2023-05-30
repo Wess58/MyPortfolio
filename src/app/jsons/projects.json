@@ -79,7 +79,7 @@
       },
       {
          "name":"Mulika",
-         "description":"THis is a monitoring platform that continuously records a set of metrics that measure system performance to provide a Visualization Dashboard for users to easily identify when their services experience failures or success. It has key features such as Real Time Monitoring , Data Visualization , Alerts with configurable service thresholds, Ease of Integration using database queries, logs analysis or using a simple HTTP API.",
+         "description":"This is a monitoring platform that continuously records a set of metrics that measure system performance to provide a Visualization Dashboard for users to easily identify when their services experience failures or success. It's key features include Real Time Monitoring , Data Visualization , Alerts with configurable service thresholds, Integration using DB queries, logs analysis or HTTP API.",
          "githubLink":"",
          "liveLink":""
       },
