@@ -56,6 +56,7 @@
         a {
           color: #f1f1f1;
           cursor: pointer;
+          text-decoration: underline;
         }
       }
 
@@ -88,122 +89,6 @@
     }
   }
 
-  .BorderB {
-    position: absolute;
-    background: #3c4043;
-    width: 50px;
-    height: 5px;
-    border-radius: 20px;
-    transition: all 0.3s ease;
-  }
-
-  #Android .BorderB {
-    top: 120px;
-  }
-
-  #Android:hover .BorderB {
-    position: absolute;
-    background: #A4C639;
-    height: 5px;
-    width: 100px;
-    border-radius: 20px;
-  }
-
-  #Java .BorderB {
-    top: 120px;
-  }
-
-  #Java:hover .BorderB {
-    position: absolute;
-    background: #5382a1;
-    height: 5px;
-    width: 100px;
-    border-radius: 20px;
-  }
-
-  #Angular .BorderB {
-    top: 122px;
-  }
-
-  #Angular:hover .BorderB {
-    position: absolute;
-    background: #de2323;
-    height: 5px;
-    width: 100px;
-    border-radius: 20px;
-  }
-
-  #Spark .BorderB {
-    top: 120px;
-  }
-
-  #Spark:hover .BorderB {
-    background: #ff811b;
-    height: 5px;
-    width: 100px;
-    border-radius: 20px;
-  }
-
-  #html .BorderB {
-    top: 110px;
-  }
-
-  #html:hover #HTML .BorderB {
-    background: #e34f26;
-    height: 5px;
-    width: 80px;
-    border-radius: 20px;
-  }
-
-  #html:hover #CSS .BorderB {
-    background: #2fbdf1;
-    height: 5px;
-    width: 80px;
-    border-radius: 20px;
-  }
-
-  #IDE .BorderB {
-    top: 120px;
-  }
-
-  #IDE:hover .BorderB {
-    position: absolute;
-    background: #BAE7F5;
-    width: 100px;
-    height: 5px;
-    border-radius: 20px;
-  }
-
-  #moringalogo {
-    width: 200px;
-    height: 100px;
-  }
-}
-
-.borderBottom {
-  border-bottom: 3px solid #f1f1f1!important;
-}
-
-::ng-deep .mat-tab-label,
-::ng-deep .mat-tab-labels,
-::ng-deep .mat-tab-link,
-::ng-deep.mat-tab-label-content {
-  font-family: 'Exo', sans-serif;
-  color: #fff!important;
-  font-size: 16px;
-  font-weight: 600;
-}
-
-::ng-deep .mat-tab-group.mat-primary .mat-ink-bar,
-::ng-deep.mat-tab-nav-bar .mat-primary .mat-ink-bar {
-  background: #f1f1f1;
-  height: 3px;
-  border-radius: 5px;
-}
-
-::ng-deep .mat-tab-header {
-  border-bottom: 1px solid #f1f1f1;
-}
 // ************************************************
 // MEDIA QUERIES
 // *****************************************
