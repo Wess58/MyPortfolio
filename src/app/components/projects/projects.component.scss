@@ -139,7 +139,7 @@
         top:0;
         left: 0;
         z-index: -1;
-        filter: brightness(35%);
+        filter: brightness(50%);
         border-radius: 7px;
         object-fit: cover;
 
@@ -182,5 +182,15 @@
 
   .project-details {
     height: 400px!important;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .project-card {
+    p {
+      min-height: auto!important;
+      margin-bottom: 20px!important;
+    }
   }
 }
