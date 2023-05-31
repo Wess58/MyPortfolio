@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import Aos from 'aos';
+// import Aos from 'aos';
+declare let AOS: any;
 
 @Component({
   selector: 'app-landing',
@@ -12,7 +13,7 @@ export class LandingComponent implements OnInit {
 
   ngOnInit(): void {
     setTimeout(() => {
-      Aos.init();//AOS - 2
+      AOS.init();//AOS - 2
     }, 2000);
   }
 

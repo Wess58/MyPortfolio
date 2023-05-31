@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import Aos from 'aos';
+// import Aos from 'aos';
+declare let AOS: any;
+
 import content from "../../jsons/skills.json";
 
 
@@ -19,7 +21,7 @@ export class SkillsComponent implements OnInit {
   ngOnInit(): void {
     // Aos.init({ once: true });
     // Aos.init({ disable: 'phone' });//AOS - 2
-    Aos.init();//AOS - 2
+    AOS.init();//AOS - 2
 
   }
 

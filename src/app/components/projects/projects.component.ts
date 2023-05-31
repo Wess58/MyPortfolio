@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import Aos from 'aos'; //AOS - 1
+// import Aos from 'aos'; //AOS - 1
+declare let AOS: any;
+
 import content from "../../jsons/projects.json";
 @Component({
   selector: 'app-projects',
@@ -14,6 +16,6 @@ export class ProjectsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    Aos.init();//AOS - 2
+    AOS.init();//AOS - 2
   }
 }
