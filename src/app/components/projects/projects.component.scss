@@ -3,8 +3,8 @@
 }
 
 .projects-container {
-  .section-title {
-    margin-bottom: 7vh;
+  .section-description {
+    margin: 20px auto 40px auto !important;
   }
 
   .featured-projects-listing {
@@ -127,7 +127,7 @@
       margin-bottom: 40px;
       overflow: hidden!important;
 
-      .card{
+      .card {
         background-color: #0009;
         border: 1px solid #3c4043;
       }
@@ -136,13 +136,12 @@
         height: 100%;
         width: 100%;
         position: absolute;
-        top:0;
+        top: 0;
         left: 0;
         z-index: -1;
         filter: brightness(50%);
         border-radius: 7px;
         object-fit: cover;
-
       }
     }
   }
@@ -184,9 +183,7 @@
     height: 400px!important;
   }
 }
-
 @media (max-width: 500px) {
-
   .project-card {
     p {
       min-height: auto!important;

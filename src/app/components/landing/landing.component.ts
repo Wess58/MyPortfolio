@@ -12,9 +12,9 @@ export class LandingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    setTimeout(() => {
+    // setTimeout(() => {
       AOS.init();//AOS - 2
-    }, 2000);
+    // }, 2000);
   }
 
 }

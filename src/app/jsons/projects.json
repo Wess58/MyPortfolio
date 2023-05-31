@@ -2,7 +2,7 @@
    "keyProjects":[
       {
          "name":"Bake Connect",
-         "description":"This is an Angular-based Web application that enables home bakers to record and manage their customers' orders, payments and allow them send tailored notifications by via SMS.",
+         "description":"This is an Angular-based Web application that enables home bakers to record and manage their customers' orders, payments and allow them to send tailored notifications via SMS.",
          "technologies":[
             "Angular",
             "Typescript",
@@ -53,7 +53,7 @@
       },
       {
          "name":"Artfolio",
-         "description":"Developed and launched a responsive website to display my art projects. It's goal was to allow interested clientele to have access to the full gallery of my art works and allow website visitors from referral links to have alternative means of contacting from the website.",
+         "description":"Developed and launched a responsive website to display my art projects. It's goal was to give interested clientele access to the full gallery of my art works and allow website visitors from referral links to have alternative means of contacting from the website.",
          "technologies":[
             "Angular",
             "Typescript",
@@ -65,23 +65,12 @@
       }
    ],
    "otherProjects":[
-      {
-         "name":"KCB Mobi-reg",
-         "description":"This project seeked to collapse multi-step service requests into one complex service-request initiated and approved, do Inter-dependency processing. Provide better visibility of complex actions for better experience by giving users the ability to view automatic processing of statuses to individual operations and abstract asynchronous APIs for a seamless experience.",
-         "githubLink":"",
-         "liveLink":""
-      },
+
       {
          "name":"Meliora Technologies",
          "description":"Developed and launched a responsive website for Meliora Technologies to create an awareness of the services, internal projects as well as project collaborations.It also sort to help better communicate with the world about the company story / history and other activities the company is participating in.",
          "githubLink":"",
          "liveLink":"https://www.meliora.co.ke/"
-      },
-      {
-         "name":"Mulika",
-         "description":"This is a monitoring platform that continuously records a set of metrics that measure system performance to provide a Visualization Dashboard for users to easily identify when their services experience failures or success. It's key features include Real Time Monitoring , Data Visualization , Alerts with configurable service thresholds, Integration using DB queries, logs analysis or HTTP API.",
-         "githubLink":"",
-         "liveLink":""
       },
       {
          "name":"Tecom",
@@ -94,6 +83,18 @@
          "description":"This is an Angular-based Web application that lists a well thought out catalog of accredited accommodation options in Kenya, with applicable rates for the domestic market that apply to east africa community citizens and residents. It was conceived and set up by a diverse team of Kenyans who are passionate about the Domestic Tourism Market and Holidays",
          "githubLink":"",
          "liveLink":"https://kejua.com"
+      },
+      {
+         "name":"KCB Mobi-reg",
+         "description":"This project seeked to collapse multi-step service requests into one complex service-request initiated and approved, do Inter-dependency processing. Provide better visibility of complex actions for better experience by giving users the ability to view automatic processing of statuses to individual operations and abstract asynchronous APIs for a seamless experience.",
+         "githubLink":"",
+         "liveLink":""
+      },
+      {
+         "name":"Mulika",
+         "description":"This is a monitoring platform that continuously records a set of metrics that measure system performance to provide a Visualization Dashboard for users to easily identify when their services experience failures or success. It's key features include Real Time Monitoring , Data Visualization , Alerts with configurable service thresholds, Integration using DB queries, logs analysis or HTTP API.",
+         "githubLink":"",
+         "liveLink":""
       }
    ]
 }

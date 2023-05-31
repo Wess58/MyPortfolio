@@ -88,6 +88,26 @@
       border-radius: 0;
     }
   }
+
+  .resume-link{
+    margin: 30px auto;
+    text-align: center;
+
+    a{
+      color: #fff;
+      &:hover{
+        i{
+          position: relative;
+          left: 20px;
+        }
+      }
+      i{
+        transition: all .2s;
+        position: relative;
+        left: 10px;
+      }
+    }
+  }
 }
 
 // ************************************************
@@ -96,7 +116,10 @@
 //
 //
 @media(max-width: 1000px) {
-  .skills-listing {
-    margin-bottom: 10vh;
+  .skills-listing{
+    margin-bottom: 4vh;
+  }
+  .resume-link {
+    margin-bottom: 7vh!important;
   }
 }
