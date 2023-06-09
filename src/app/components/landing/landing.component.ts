@@ -12,9 +12,13 @@ export class LandingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    // setTimeout(() => {
-      AOS.init();//AOS - 2
-    // }, 2000);
+    AOS.init();//AOS - 2
+    this.resfreshPage();
+  }
+
+  resfreshPage(): void {
+    location.reload();
+    AOS.init();//AOS - 2
   }
 
 }
