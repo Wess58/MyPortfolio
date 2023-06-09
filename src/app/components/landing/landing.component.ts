@@ -13,7 +13,7 @@ export class LandingComponent implements OnInit {
 
   ngOnInit(): void {
     AOS.init();//AOS - 2
-    this.resfreshPage();
+    // this.resfreshPage();
   }
 
   resfreshPage(): void {
