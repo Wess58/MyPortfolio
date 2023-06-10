@@ -32,7 +32,7 @@ export class LandingComponent implements OnInit {
 
     setTimeout(() => {
       localStorage.removeItem('reload');
-    }, 60000);
+    }, 5000);
   }
 
 }
