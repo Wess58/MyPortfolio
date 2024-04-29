@@ -1,11 +1,28 @@
 {
    "keyProjects":[
+     {
+        "name":"MySerrari",
+        "description":"Using Angular Ionic for the front-end and spring boot for the back-end, we developed a product that helps users improve their Financial literacy and management. The product offers features such as Monthly-spend planning with a transparent and easy payment experience allowing users to track expenses and budget their income.",
+        "technologies":[
+           "Angular",
+           "Typescript",
+           "Canvas JS",
+           "SCSS",
+           "Java",
+           "Springboot"
+        ],
+        "githubLink":"",
+        "liveLink":"https://myserrari.serrarigroup.com/",
+        "imgUrl":"assets/images/projects/serrari.png"
+     },
       {
          "name":"Bake Connect",
-         "description":"This is an Angular-based Web application that enables home bakers to record and manage their customers' orders, payments and allow them to send tailored notifications via SMS.",
+         "description":"Bake Connect is an Angular-based web application that I developed for home bakers to streamline their business operations. It enables users to handle orders, payments, as well as send tailored notifications via SMS.",
          "technologies":[
             "Angular",
             "Typescript",
+            "SCSS",
+            "Bootstrap",
             "Java",
             "Springboot"
          ],
@@ -20,6 +37,8 @@
             "Angular",
             "Typescript",
             "Java",
+            "SCSS",
+            "Bootstrap",
             "Springboot"
          ],
          "githubLink":"",
@@ -32,7 +51,9 @@
          "technologies":[
             "Angular",
             "Typescript",
-            "Github APIs"
+            "Github REST APIs",
+            "SCSS",
+            "Bootstrap"
          ],
          "githubLink":"https://github.com/Wess58/Gitsearch",
          "liveLink":"https://wess58.github.io/Gitsearch/",
@@ -79,10 +100,16 @@
          "liveLink":"https://tecomadvance.com/"
       },
       {
+         "name":"Podcaster's Portfolio",
+         "description":"The Angular-based platform has taken passion for storytelling and community empowerment to new heights with the website standing as a testament to modern web development, by integrating her podcasts with Spotify's high-quality audio. Dive into the stories that matter with content that encourages reflection and personal growth; crafted to guide and inspire entrepreneurs and individuals alike.",
+         "githubLink":"",
+         "liveLink":"https://www.thewalkbymercymunyange.com/"
+      },
+      {
          "name":"Kejua",
          "description":"This is an Angular-based Web application that lists a well thought out catalog of accredited accommodation options in Kenya, with applicable rates for the domestic market that apply to east africa community citizens and residents. It was conceived and set up by a diverse team of Kenyans who are passionate about the Domestic Tourism Market and Holidays",
          "githubLink":"",
-         "liveLink":"https://kejua.com"
+         "liveLink":""
       },
       {
          "name":"KCB Mobi-reg",
