@@ -1,5 +1,21 @@
 {
    "keyProjects":[
+      {
+         "name": "Redix Solar Sizing Calculator",
+         "description": "The platform takes the guesswork out of solar sizing for homes, offices, and organizations. With two easy-to-use methods to calculate your solar needs, Redix Solar eliminates the hassle of seeking equipment recommendations, providing clear & accurately curated results and comprehensive guidance on solar energy investments.",
+         "technologies": [
+            "Angular",
+            "Typescript",
+            "SCSS",
+            "Java",
+            "Springboot",
+            "M-Pesa",
+            "Paypal"
+         ],
+         "githubLink": "",
+         "liveLink": "https://redixsolar.co.ke/",
+         "imgUrl": "assets/images/projects/redix-solar.jpg"
+      },
      {
         "name":"MySerrari",
         "description":"Using Angular Ionic for the front-end and spring boot for the back-end, we developed a product that helps users improve their Financial literacy and management. The product offers features such as Monthly-spend planning with a transparent and easy payment experience allowing users to track expenses and budget their income.",
@@ -100,7 +116,7 @@
          "liveLink":"https://tecomadvance.com/"
       },
       {
-         "name":"Podcaster's Portfolio",
+         "name":"A Podcaster's Portfolio",
          "description":"The Angular-based platform has taken passion for storytelling and community empowerment to new heights with the website standing as a testament to modern web development, by integrating her podcasts with Spotify's high-quality audio. Dive into the stories that matter with content that encourages reflection and personal growth; crafted to guide and inspire entrepreneurs and individuals alike.",
          "githubLink":"",
          "liveLink":"https://www.thewalkbymercymunyange.com/"
