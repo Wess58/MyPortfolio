@@ -1,5 +1,19 @@
 {
-   "keyProjects":[
+   "keyProjects": [
+      {
+         "name": "Tiara Connect Website",
+         "description": "Developed and launched a responsive website for Tiara Connect Platform whose goal is to Powering Customer-Centric Evolution by leveraging advanced messaging, USSD and short-code technologies, enable seamless, real-time communication that enhances customer engagement and satisfaction. Empowering your business to evolve with a customer-centric approach, ensuring every interaction is meaningful and impactful.",
+         "technologies": [
+            "Angular",
+            "Typescript",
+            "SCSS",
+            "Bootstrap",
+            "PHP"
+         ],
+         "githubLink": "",
+         "liveLink": "https://tiaraconnect.io/",
+         "imgUrl": "assets/images/projects/tiara-connect-website.png"
+      },
       {
          "name": "Redix Solar Sizing Calculator",
          "description": "The platform takes the guesswork out of solar sizing for homes, offices, and organizations. With two easy-to-use methods to calculate your solar needs, Redix Solar eliminates the hassle of seeking equipment recommendations, providing clear & accurately curated results and comprehensive guidance on solar energy investments.",
@@ -16,25 +30,25 @@
          "liveLink": "https://redixsolar.co.ke/",
          "imgUrl": "assets/images/projects/redix-solar.jpg"
       },
-     {
-        "name":"MySerrari",
-        "description":"Using Angular Ionic for the front-end and spring boot for the back-end, we developed a product that helps users improve their Financial literacy and management. The product offers features such as Monthly-spend planning with a transparent and easy payment experience allowing users to track expenses and budget their income.",
-        "technologies":[
-           "Angular",
-           "Typescript",
-           "Canvas JS",
-           "SCSS",
-           "Java",
-           "Springboot"
-        ],
-        "githubLink":"",
-        "liveLink":"https://myserrari.serrarigroup.com/",
-        "imgUrl":"assets/images/projects/serrari.png"
-     },
       {
-         "name":"Bake Connect",
-         "description":"Bake Connect is an Angular-based web application that I developed for home bakers to streamline their business operations. It enables users to handle orders, payments, as well as send tailored notifications via SMS.",
-         "technologies":[
+         "name": "MySerrari",
+         "description": "Using Angular Ionic for the front-end and spring boot for the back-end, we developed a product that helps users improve their Financial literacy and management. The product offers features such as Monthly-spend planning with a transparent and easy payment experience allowing users to track expenses and budget their income.",
+         "technologies": [
+            "Angular",
+            "Typescript",
+            "Canvas JS",
+            "SCSS",
+            "Java",
+            "Springboot"
+         ],
+         "githubLink": "",
+         "liveLink": "https://myserrari.serrarigroup.com/",
+         "imgUrl": "assets/images/projects/serrari.png"
+      },
+      {
+         "name": "Bake Connect",
+         "description": "Bake Connect is an Angular-based web application that I developed for home bakers to streamline their business operations. It enables users to handle orders, payments, as well as send tailored notifications via SMS.",
+         "technologies": [
             "Angular",
             "Typescript",
             "SCSS",
@@ -42,14 +56,14 @@
             "Java",
             "Springboot"
          ],
-         "githubLink":"",
-         "liveLink":"https://bakeconnect.app/",
-         "imgUrl":"assets/images/projects/baked-sc.png"
+         "githubLink": "",
+         "liveLink": "https://bakeconnect.app/",
+         "imgUrl": "assets/images/projects/baked-sc.png"
       },
       {
-         "name":"kekes Reading Nook",
-         "description":"This is an Angular-based platform that allows users to browse through a wide genre of books and rent them based on their subscription plan from a home-librarian who hopes to nurture a community with reading-culture for generations to come.",
-         "technologies":[
+         "name": "kekes Reading Nook",
+         "description": "This is an Angular-based platform that allows users to browse through a wide genre of books and rent them based on their subscription plan from a home-librarian who hopes to nurture a community with reading-culture for generations to come.",
+         "technologies": [
             "Angular",
             "Typescript",
             "Java",
@@ -57,87 +71,86 @@
             "Bootstrap",
             "Springboot"
          ],
-         "githubLink":"",
-         "liveLink":"https://kekesreadingnook.com/",
-         "imgUrl":"assets/images/projects/kekes-sc.png"
+         "githubLink": "",
+         "liveLink": "https://kekesreadingnook.com/",
+         "imgUrl": "assets/images/projects/kekes-sc.png"
       },
       {
-         "name":"Gitsearch App",
-         "description":"This Angular web application is created to use Github's API to enable user search for github accounts. View certain details of an account, public repositories of that account and maneuver to live-links or public github repos to the projects.",
-         "technologies":[
+         "name": "Gitsearch App",
+         "description": "This Angular web application is created to use Github's API to enable user search for github accounts. View certain details of an account, public repositories of that account and maneuver to live-links or public github repos to the projects.",
+         "technologies": [
             "Angular",
             "Typescript",
             "Github REST APIs",
             "SCSS",
             "Bootstrap"
          ],
-         "githubLink":"https://github.com/Wess58/Gitsearch",
-         "liveLink":"https://wess58.github.io/Gitsearch/",
-         "imgUrl":"assets/images/projects/gitsearch-sc.png"
+         "githubLink": "https://github.com/Wess58/Gitsearch",
+         "liveLink": "https://wess58.github.io/Gitsearch/",
+         "imgUrl": "assets/images/projects/gitsearch-sc.png"
       },
       {
-         "name":"Decalogue International",
-         "description":"Developed and launched a responsive website for Decalogue International Ltd using Angular framework. Collaborated with the company's team to create a user-friendly interface and experience optimized for site performance. A lot of user testing was carried out to ensure peak overall functionality was delivered.",
-         "technologies":[
+         "name": "Decalogue International",
+         "description": "Developed and launched a responsive website for Decalogue International Ltd using Angular framework. Collaborated with the company's team to create a user-friendly interface and experience optimized for site performance. A lot of user testing was carried out to ensure peak overall functionality was delivered.",
+         "technologies": [
             "Angular",
             "Typescript",
             "HTML",
             "CSS"
          ],
-         "githubLink":"",
-         "liveLink":"http://www.decalogue.co.ke/",
-         "imgUrl":"assets/images/projects/decalogue-sc.png"
+         "githubLink": "",
+         "liveLink": "http://www.decalogue.co.ke/",
+         "imgUrl": "assets/images/projects/decalogue-sc.png"
       },
       {
-         "name":"Artfolio",
-         "description":"Developed and launched a responsive website to display my art projects. It's goal was to give interested clientele access to the full gallery of my art works and allow website visitors from referral links to have alternative means of contacting from the website.",
-         "technologies":[
+         "name": "Artfolio",
+         "description": "Developed and launched a responsive website to display my art projects. It's goal was to give interested clientele access to the full gallery of my art works and allow website visitors from referral links to have alternative means of contacting from the website.",
+         "technologies": [
             "Angular",
             "Typescript",
             "Bootstrap"
          ],
-         "githubLink":"https://github.com/Wess58/artfolio/",
-         "liveLink":"https://wess58.github.io/artfolio/",
-         "imgUrl":"assets/images/projects/artfolio-sc.png"
+         "githubLink": "https://github.com/Wess58/artfolio/",
+         "liveLink": "https://wess58.github.io/artfolio/",
+         "imgUrl": "assets/images/projects/artfolio-sc.png"
       }
    ],
-   "otherProjects":[
-
+   "otherProjects": [
       {
-         "name":"Meliora Technologies",
-         "description":"Developed and launched a responsive website for Meliora Technologies to create an awareness of the services, internal projects as well as project collaborations.It also sort to help better communicate with the world about the company story / history and other activities the company is participating in.",
-         "githubLink":"",
-         "liveLink":"https://www.meliora.co.ke/"
+         "name": "Meliora Technologies",
+         "description": "Developed and launched a responsive website for Meliora Technologies to create an awareness of the services, internal projects as well as project collaborations.It also sort to help better communicate with the world about the company story / history and other activities the company is participating in.",
+         "githubLink": "",
+         "liveLink": "https://www.meliora.co.ke/"
       },
       {
-         "name":"Tecom",
-         "description":"Developed and launched a responsive website to allow an Information Technology Repair company to reach to an organic audience.The goal of the website was to enable clients find tech services and get assistance through a carefully thought out contacting experience that enables both client and tech assistant to follow up conversations via email.",
-         "githubLink":"",
-         "liveLink":"https://tecomadvance.com/"
+         "name": "Tecom",
+         "description": "Developed and launched a responsive website to allow an Information Technology Repair company to reach to an organic audience.The goal of the website was to enable clients find tech services and get assistance through a carefully thought out contacting experience that enables both client and tech assistant to follow up conversations via email.",
+         "githubLink": "",
+         "liveLink": "https://tecomadvance.com/"
       },
       {
-         "name":"A Podcaster's Portfolio",
-         "description":"The Angular-based platform has taken passion for storytelling and community empowerment to new heights with the website standing as a testament to modern web development, by integrating her podcasts with Spotify's high-quality audio. Dive into the stories that matter with content that encourages reflection and personal growth; crafted to guide and inspire entrepreneurs and individuals alike.",
-         "githubLink":"",
-         "liveLink":"https://wess58.github.io/mercyportfolio/"
+         "name": "A Podcaster's Portfolio",
+         "description": "The Angular-based platform has taken passion for storytelling and community empowerment to new heights with the website standing as a testament to modern web development, by integrating her podcasts with Spotify's high-quality audio. Dive into the stories that matter with content that encourages reflection and personal growth; crafted to guide and inspire entrepreneurs and individuals alike.",
+         "githubLink": "",
+         "liveLink": "https://wess58.github.io/mercyportfolio/"
       },
       {
-         "name":"Kejua",
-         "description":"This is an Angular-based Web application that lists a well thought out catalog of accredited accommodation options in Kenya, with applicable rates for the domestic market that apply to east africa community citizens and residents. It was conceived and set up by a diverse team of Kenyans who are passionate about the Domestic Tourism Market and Holidays",
-         "githubLink":"",
-         "liveLink":""
+         "name": "Kejua",
+         "description": "This is an Angular-based Web application that lists a well thought out catalog of accredited accommodation options in Kenya, with applicable rates for the domestic market that apply to east africa community citizens and residents. It was conceived and set up by a diverse team of Kenyans who are passionate about the Domestic Tourism Market and Holidays",
+         "githubLink": "",
+         "liveLink": ""
       },
       {
-         "name":"KCB Mobi-reg",
-         "description":"This project seeked to collapse multi-step service requests into one complex service-request initiated and approved, do Inter-dependency processing. Provide better visibility of complex actions for better experience by giving users the ability to view automatic processing of statuses to individual operations and abstract asynchronous APIs for a seamless experience.",
-         "githubLink":"",
-         "liveLink":""
+         "name": "KCB Mobi-reg",
+         "description": "This project seeked to collapse multi-step service requests into one complex service-request initiated and approved, do Inter-dependency processing. Provide better visibility of complex actions for better experience by giving users the ability to view automatic processing of statuses to individual operations and abstract asynchronous APIs for a seamless experience.",
+         "githubLink": "",
+         "liveLink": ""
       },
       {
-         "name":"Mulika",
-         "description":"This is a monitoring platform that continuously records a set of metrics that measure system performance to provide a Visualization Dashboard for users to easily identify when their services experience failures or success. It's key features include Real Time Monitoring , Data Visualization , Alerts with configurable service thresholds, Integration using DB queries, logs analysis or HTTP API.",
-         "githubLink":"",
-         "liveLink":""
+         "name": "Mulika",
+         "description": "This is a monitoring platform that continuously records a set of metrics that measure system performance to provide a Visualization Dashboard for users to easily identify when their services experience failures or success. It's key features include Real Time Monitoring , Data Visualization , Alerts with configurable service thresholds, Integration using DB queries, logs analysis or HTTP API.",
+         "githubLink": "",
+         "liveLink": ""
       }
    ]
 }

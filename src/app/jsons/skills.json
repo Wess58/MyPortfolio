@@ -1,10 +1,12 @@
 {
-  "experiences": [{
+  "experiences": [
+    {
       "company": "Meliora Technologies",
       "website": "https://www.linkedin.com/company/melioratechnologieslimited/",
       "role": "Lead Frontend Engineer",
-      "period": "Aug 2022 - Present · 2 yrs 3 mos",
-      "description": ""
+      "period": "Aug 2022 - Present ·",
+      "description": "",
+      "doMath": true
     },
     {
       "company": "Meliora Technologies",
@@ -36,6 +38,25 @@
     }
   ],
   "skillsList": [
-    "Problem solver", "Angular", "Angular JS", "React", "Typescript", "Javascript", "Writing Cross-Browser Code", "HTML", "CSS", "SCSS", "Writing reusable code", "Bootstrap", "Tailwind css", "Responsive Design", "Docker products", "Kubernetes", "Project deployment", "Java", "Android", "Fast learner"
+    "Problem solver",
+    "Angular",
+    "Angular JS",
+    "React",
+    "Typescript",
+    "Javascript",
+    "Writing Cross-Browser Code",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Writing reusable code",
+    "Bootstrap",
+    "Tailwind css",
+    "Responsive Design",
+    "Docker products",
+    "Kubernetes",
+    "Project deployment",
+    "Java",
+    "Android",
+    "Fast learner"
   ]
 }

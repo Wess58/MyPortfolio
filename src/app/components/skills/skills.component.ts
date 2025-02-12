@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 declare let AOS: any;
 
 import content from "../../jsons/skills.json";
+import * as moment from 'moment';
 
 
 
@@ -15,6 +16,9 @@ export class SkillsComponent implements OnInit {
 
   skills = content.skillsList;
   experiences = content.experiences;
+
+  currentWorkPeriodMonths = moment().diff(moment('2022-08-01'), 'months');
+  currentWorkPeriodYears = (this.currentWorkPeriodMonths / 12 | 0) + ' yrs ' + (this.currentWorkPeriodMonths % 12) + ' mo';
 
   constructor() { }
 

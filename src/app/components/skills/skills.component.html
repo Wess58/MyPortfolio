@@ -14,8 +14,8 @@
         <div class="experience-item" *ngFor="let experience of experiences;index as i" data-aos="fade-up" data-aos-offset="100 + (i * 20)" data-aos-duration="1000">
           <span class="dot-connector"></span>
           <span class="border-connector"></span>
-          <h6>{{experience.role}} <a [href]="experience.website" target="_blank">@{{experience.company}}</a></h6>
-          <span class="period">{{experience.period}}</span>
+          <h6>{{experience.role}} <a [href]="experience.website" target="_blank">@\{{experience.company}}</a></h6>
+          <span class="period">{{experience.period}} <span *ngIf="experience.doMath">{{currentWorkPeriodYears}}</span> </span>
           <p class="m-0">{{experience.description}}</p>
         </div>
       </div>
