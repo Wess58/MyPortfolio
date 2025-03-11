@@ -15,6 +15,19 @@
          "imgUrl": "assets/images/projects/tiara-connect-website.png"
       },
       {
+         "name": "CCB Africa Website",
+         "description": "Developed and launched a responsive website for CCB Africa - a progressive training and consultancy firm. This project harnesses the power of Angular, TypeScript, and SCSS to create a sleek responsive website. From concept to deployment, it merges technical expertise with creative precision, delivering a seamless and engaging user experience.",
+         "technologies": [
+            "Angular",
+            "Typescript",
+            "SCSS",
+            "Bootstrap"
+         ],
+         "githubLink": "",
+         "liveLink": "https://ccbafrica.org/",
+         "imgUrl": "assets/images/projects/ccba-sc.png"
+      },
+      {
          "name": "Redix Solar Sizing Calculator",
          "description": "The platform takes the guesswork out of solar sizing for homes, offices, and organizations. With two easy-to-use methods to calculate your solar needs, Redix Solar eliminates the hassle of seeking equipment recommendations, providing clear & accurately curated results and comprehensive guidance on solar energy investments.",
          "technologies": [
