@@ -1,25 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-@import './assets/css/font-exo.css';
-@import './assets/css/font-varela-round.css'; // @import '../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css';
+@import "./assets/css/font-exo.css";
+@import "./assets/css/font-varela-round.css"; // @import '../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css';
 // @import '../node_modules/@fortawesome/fontawesome-free/css/solid.css';
 // @import '../node_modules/@fortawesome/fontawesome-free/css/brands.css';
-@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
-// ng build --prod --base-href https://wess58.github.io/MyPortfolio/ --output-path docs && git add . && git commit -m "docs ready for deployment" && git push
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+// ng build --base-href https://wess58.github.io/MyPortfolio/ --output-path docs && git add . && git commit -m "docs ready for deployment" && git push
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   scroll-behavior: smooth !important;
   overflow-x: hidden !important;
   background-color: #212121;
 }
 
 * img::selection {
-  background-color: transparent!important;
+  background-color: transparent !important;
 }
 
 * img {
@@ -33,12 +33,13 @@ body {
 
 ::selection {
   color: #f1f1f1;
-  background-color: #80868b!important;
+  background-color: #80868b !important;
 }
 
-.section-title,.secondary-section-title {
+.section-title,
+.secondary-section-title {
   color: #f1f1f1;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   text-align: center;
   font-weight: 600;
   letter-spacing: 1px;
@@ -54,18 +55,27 @@ body {
 }
 @media (max-width: 760px) {
   body {
-    overflow-x: hidden!important;
+    zoom: 90%;
+  }
+}
+
+@media (max-width: 760px) {
+  body {
+    body {
+      zoom: 90%;
+    }
+    // overflow-x: hidden !important;
   }
 
   .text-ms-left {
-    text-align: left!important;
+    text-align: left !important;
   }
 
   .text-ms-center {
-    text-align: center!important;
+    text-align: center !important;
   }
 
   .text-ms-right {
-    text-align: right!important;
+    text-align: right !important;
   }
 }

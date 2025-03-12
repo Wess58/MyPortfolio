@@ -159,7 +159,7 @@
 @media (max-width: 1280px) {}
 @media (max-width: 1000px) {
   .main {
-    overflow: hidden!important;
+    overflow-x: hidden!important;
     margin-top: 0;
     margin-bottom: 0;
     padding: 5vh 0;
