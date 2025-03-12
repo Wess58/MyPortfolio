@@ -35,7 +35,7 @@
   </div>
 
   <div class="phone-projects-listing d-block d-md-none">
-    <div class="project-item" *ngFor="let project of keyProjects;index as i" data-aos="fade-up" data-aos-offset="100" data-aos-duration="1200">
+    <div class="project-item" *ngFor="let project of keyProjects;index as i" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1100">
       <img [src]="project.imgUrl" alt="project-illustration">
       <div class="card">
         <h4>{{project.name}}</h4>
@@ -52,12 +52,14 @@
   </div>
 
 
-  <h5 class="secondary-section-title mb-5">Noteworthy projects</h5>
+  <h5 class="secondary-section-title mb-5">Noteworthy projects </h5>
+  
 
 
   <div class="other-projects-listing">
-    <div class="row">
-      <div class="col-md-6 col-lg-4" *ngFor="let project of otherProjects;index as i" data-aos="fade-up" data-aos-offset="100 + (i * 20)" data-aos-duration="1000">
+    <div class="row"  data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
+      <div class="col-md-6 col-lg-4" *ngFor="let project of otherProjects;index as i">
+        <!-- data-aos-offset="distance + (i * 20)" -->
         <div class="card project-card">
           <h4>{{project.name}}</h4>
           <p>{{project.description}}</p>

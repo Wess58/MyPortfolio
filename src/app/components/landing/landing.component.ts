@@ -17,17 +17,22 @@ export class LandingComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    AOS.init();//AOS - 2
-    this.resfreshPage();
+    // AOS.init();//AOS - 2
+    AOS.init({ once: true, 
+      anchorPlacement: 'bottom-center'
+      // offset: (window.innerHeight * .01) 
+    });
+
+    this.refreshPage();
   }
 
-  resfreshPage(): void {
+  refreshPage(): void {
     console.log(localStorage.getItem('reload') || '');
 
     if (localStorage.getItem('reload') !== 'true') {
       localStorage.setItem('reload', 'true');
       location.reload();
-      AOS.init();//AOS - 2
+      AOS.init({ once: true });
     }
 
     setTimeout(() => {

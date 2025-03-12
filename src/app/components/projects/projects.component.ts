@@ -16,6 +16,6 @@ export class ProjectsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    AOS.init();//AOS - 2
+    // AOS.init({ disable: 'mobile' });//AOS - 2
   }
 }

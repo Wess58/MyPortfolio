@@ -24,8 +24,8 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit(): void {
     // Aos.init({ once: true });
-    // Aos.init({ disable: 'phone' });//AOS - 2
-    AOS.init();//AOS - 2
+    // AOS.init({ disable: 'phone' });//AOS - 2
+    // AOS.init();//AOS - 2
 
   }
 
