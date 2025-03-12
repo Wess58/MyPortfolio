@@ -11,8 +11,8 @@ nav {
     background-color: #f1f1f111;
     box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2);
     border-radius: 40px;
-    margin: 15px 10px 0;
-    // -webkit-backdrop-filter: blur(10px);
+    margin: 15px 20px 0;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
   }
 
@@ -29,6 +29,10 @@ nav {
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  .nav-item{
+    position: relative;
   }
 
   a {
@@ -96,6 +100,7 @@ nav {
 @media (max-width: 760px) {
   nav {
     padding: 0px !important;
+
     .container{
       padding: 10px 0;
     }
@@ -103,11 +108,11 @@ nav {
     a {
       text-decoration: none !important;
       margin: 5px 0;
-      width: calc(90vw / 4);
+      width: calc(80vw / 4);
 
       &:hover {
         .fas {
-          color: #3c4043!important;
+          color: #f1d3bb!important;
         }
       }
 
@@ -123,11 +128,7 @@ nav {
     }
 
     a:before {
-      position: absolute;
-      left: 12px;
-      top: -3px;
-      width: 60px;
-      // width: calc(80vw / 4);
+      display: none!important;
     }
 
     .nav-link {
