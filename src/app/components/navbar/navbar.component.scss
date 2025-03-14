@@ -35,7 +35,7 @@ nav {
     position: relative;
   }
 
-  a {
+  .nav-link {
     /* font-family: 'Righteous', cursive; */
     text-align: center;
     text-decoration: none;
@@ -52,7 +52,7 @@ nav {
     }
   }
 
-  a:before {
+  .nav-link:before {
     position: absolute;
     left: -7px;
     top: -2px;
@@ -67,7 +67,7 @@ nav {
     transform: translateX(-30px);
   }
 
-  a:hover:before {
+  .nav-link:hover:before {
     opacity: 1;
     transition: all 0.2s ease;
     transform: translateX(0);
@@ -105,7 +105,7 @@ nav {
       padding: 10px 0;
     }
 
-    a {
+    .nav-link-ms {
       text-decoration: none !important;
       margin: 5px 0;
       width: calc(80vw / 4);
@@ -127,9 +127,9 @@ nav {
       }
     }
 
-    a:before {
-      display: none!important;
-    }
+    // .nav-link:before {
+    //   display: none!important;
+    // }
 
     .nav-link {
       display: none;
