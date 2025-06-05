@@ -36,6 +36,7 @@
             "SCSS",
             "Java",
             "Springboot",
+            "Payments",
             "M-Pesa",
             "Paypal"
          ],
@@ -52,7 +53,9 @@
             "Canvas JS",
             "SCSS",
             "Java",
-            "Springboot"
+            "Springboot",
+            "Payments",
+            "M-Pesa"
          ],
          "githubLink": "",
          "oldliveLink": "https://myserrari.serrarigroup.com/",
@@ -82,7 +85,9 @@
             "Java",
             "SCSS",
             "Bootstrap",
-            "Springboot"
+            "Springboot",
+            "Payments",
+            "M-Pesa"
          ],
          "githubLink": "",
          "oldliveLink": "https://kekesreadingnook.com/",

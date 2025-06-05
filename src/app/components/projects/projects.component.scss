@@ -1,5 +1,5 @@
 #projects {
-  scroll-margin-top: 100px!important;
+  scroll-margin-top: 100px !important;
 }
 
 .projects-container {
@@ -20,6 +20,10 @@
           i {
             transform: rotate(-45deg);
           }
+        }
+
+        .card {
+          border: 2px solid #f1d3bb99;
         }
       }
 
@@ -43,8 +47,16 @@
         height: 320px;
         display: flex;
         align-items: center;
-        z-index: 100!important;
+        z-index: 100 !important;
         position: relative;
+      }
+    }
+  }
+
+  .other-projects-listing {
+    .card {
+      &:hover {
+        border: 2px solid #f1d3bb99;
       }
     }
   }
@@ -52,11 +64,13 @@
   .card {
     background-color: #333;
     // box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    box-shadow: 10px 15px 2px 0 rgba(0,0,0,0.2);
+    box-shadow: 10px 15px 2px 0 rgba(0, 0, 0, 0.2);
     text-align: left;
     padding: 20px;
     border-radius: 7px;
     height: fit-content;
+    border: 2px solid #3c4043;
+    transition: all 0.5s;
 
     h4 {
       color: #f1d3bb;
@@ -103,9 +117,9 @@
         transition: all 0.2s;
 
         &:hover {
-          border: 2px solid #f1f2f3!important;
-          color: #3c4043!important;
-          background-color: #f1f2f3!important;
+          border: 2px solid #f1f2f3 !important;
+          color: #3c4043 !important;
+          background-color: #f1f2f3 !important;
         }
 
         &:first-child {
@@ -125,7 +139,7 @@
     .project-item {
       position: relative;
       margin-bottom: 40px;
-      overflow: hidden!important;
+      overflow: hidden !important;
 
       .card {
         background-color: #0009;
@@ -175,19 +189,19 @@
 @media (max-width: 1000px) {
   .project-img-holder {
     img {
-      height: 400px!important;
+      height: 400px !important;
     }
   }
 
   .project-details {
-    height: 400px!important;
+    height: 400px !important;
   }
 }
 @media (max-width: 700px) {
   .project-card {
     p {
-      min-height: auto!important;
-      margin-bottom: 20px!important;
+      min-height: auto !important;
+      margin-bottom: 20px !important;
     }
   }
 }
