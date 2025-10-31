@@ -8,11 +8,45 @@
             "Typescript",
             "SCSS",
             "Bootstrap",
-            "PHP"
+            "PHP",
+            "Docker",
+            "Kubernetes"
          ],
          "githubLink": "",
          "liveLink": "https://tiaraconnect.io/",
          "imgUrl": "assets/images/projects/tiara-connect-website.png"
+      },
+      {
+         "name": "Bake Connect",
+         "description": "Bake Connect is an Angular-based web application that I developed for home bakers to streamline their business operations. It enables users to handle orders, payments, as well as send tailored notifications via SMS.",
+         "technologies": [
+            "Angular",
+            "Typescript",
+            "SCSS",
+            "Bootstrap",
+            "Java",
+            "Springboot",
+            "Docker",
+            "Kubernetes"
+         ],
+         "githubLink": "",
+         "liveLink": "https://bakeconnect.app/",
+         "imgUrl": "assets/images/projects/baked-sc.png"
+      },
+      {
+         "name": "Tecom Advance",
+         "description": "Developed and launched a responsive website to allow an Information Technology Repair company to reach to an organic audience.The goal of the website was to enable clients find tech services and get assistance through a carefully thought out contacting experience that enables both client and tech assistant to follow up conversations via email.",
+         "technologies": [
+            "Angular",
+            "Typescript",
+            "REST APIs",
+            "SCSS",
+            "Bootstrap",
+            "Docker"
+         ],
+         "githubLink": "",
+         "liveLink": "https://tecomadvance.com/",
+         "imgUrl": "assets/images/projects/tecom-sc.png"
       },
       {
          "name": "CCB Africa Website",
@@ -38,7 +72,8 @@
             "Springboot",
             "Payments",
             "M-Pesa",
-            "Paypal"
+            "Paypal",
+            "Docker"
          ],
          "githubLink": "",
          "liveLink": "https://redixsolar.co.ke/",
@@ -55,26 +90,13 @@
             "Java",
             "Springboot",
             "Payments",
-            "M-Pesa"
+            "M-Pesa",
+            "Docker",
+            "Kubernetes"
          ],
          "githubLink": "",
          "oldliveLink": "https://myserrari.serrarigroup.com/",
          "imgUrl": "assets/images/projects/serrari.png"
-      },
-      {
-         "name": "Bake Connect",
-         "description": "Bake Connect is an Angular-based web application that I developed for home bakers to streamline their business operations. It enables users to handle orders, payments, as well as send tailored notifications via SMS.",
-         "technologies": [
-            "Angular",
-            "Typescript",
-            "SCSS",
-            "Bootstrap",
-            "Java",
-            "Springboot"
-         ],
-         "githubLink": "",
-         "liveLink": "https://bakeconnect.app/",
-         "imgUrl": "assets/images/projects/baked-sc.png"
       },
       {
          "name": "kekes Reading Nook",
@@ -114,7 +136,8 @@
             "Angular",
             "Typescript",
             "HTML",
-            "CSS"
+            "CSS",
+            "Bootstrap"
          ],
          "githubLink": "",
          "liveLink": "http://www.decalogue.co.ke/",
@@ -131,6 +154,20 @@
          "githubLink": "https://github.com/Wess58/artfolio/",
          "liveLink": "https://wess58.github.io/artfolio/",
          "imgUrl": "assets/images/projects/artfolio-sc.png"
+      },
+      {
+         "name": "Podcaster's Portfolio",
+         "description": "The Angular-based platform has taken passion for storytelling and community empowerment to new heights with the website standing as a testament to modern web development, by integrating her podcasts with Spotify's high-quality audio. Dive into the stories that matter with content that encourages reflection and personal growth; crafted to guide and inspire entrepreneurs and individuals alike.",
+         "technologies": [
+            "Angular",
+            "Typescript",
+            "REST APIs",
+            "SCSS",
+            "Bootstrap"
+         ],
+         "githubLink": "",
+         "liveLink": "https://wess58.github.io/mercyportfolio/",
+         "imgUrl": "assets/images/projects/mercyportfolio-sc.png"
       }
    ],
    "otherProjects": [
@@ -141,26 +178,14 @@
          "liveLink": "https://www.meliora.co.ke/"
       },
       {
-         "name": "Tecom",
-         "description": "Developed and launched a responsive website to allow an Information Technology Repair company to reach to an organic audience.The goal of the website was to enable clients find tech services and get assistance through a carefully thought out contacting experience that enables both client and tech assistant to follow up conversations via email.",
-         "githubLink": "",
-         "liveLink": "https://tecomadvance.com/"
-      },
-      {
-         "name": "A Podcaster's Portfolio",
-         "description": "The Angular-based platform has taken passion for storytelling and community empowerment to new heights with the website standing as a testament to modern web development, by integrating her podcasts with Spotify's high-quality audio. Dive into the stories that matter with content that encourages reflection and personal growth; crafted to guide and inspire entrepreneurs and individuals alike.",
-         "githubLink": "",
-         "liveLink": "https://wess58.github.io/mercyportfolio/"
-      },
-      {
-         "name": "Kejua",
-         "description": "This is an Angular-based Web application that lists a well thought out catalog of accredited accommodation options in Kenya, with applicable rates for the domestic market that apply to east africa community citizens and residents. It was conceived and set up by a diverse team of Kenyans who are passionate about the Domestic Tourism Market and Holidays",
+         "name": "KCB Mobi-reg",
+         "description": "This project seeked to collapse multi-step service requests into one complex service-request initiated and approved, do Inter-dependency processing. Provide better visibility of complex actions for better experience by giving users the ability to view automatic processing of statuses to individual operations and abstract asynchronous APIs for a seamless experience.",
          "githubLink": "",
          "liveLink": ""
       },
       {
-         "name": "KCB Mobi-reg",
-         "description": "This project seeked to collapse multi-step service requests into one complex service-request initiated and approved, do Inter-dependency processing. Provide better visibility of complex actions for better experience by giving users the ability to view automatic processing of statuses to individual operations and abstract asynchronous APIs for a seamless experience.",
+         "name": "Kejua",
+         "description": "This is an Angular-based Web application that lists a well thought out catalog of accredited accommodation options in Kenya, with applicable rates for the domestic market that apply to east africa community citizens and residents. It was conceived and set up by a diverse team of Kenyans who are passionate about the Domestic Tourism Market and Holidays",
          "githubLink": "",
          "liveLink": ""
       },

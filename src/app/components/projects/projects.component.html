@@ -24,11 +24,12 @@
               <span *ngFor="let tech of project.technologies">{{tech}}</span>
             </div>
             <div class="action-btns">
-              <a *ngIf="project.githubLink" [href]="project.githubLink" target="_blank" title="Github" class="btn btn-github"><i class="fa-brands fa-github"></i></a>
-              <a *ngIf="project.liveLink" [href]="project.liveLink" target="_blank" title="Live site" class="btn btn-live"><i class="fa-solid fa-circle-arrow-right"></i></a>
+              <a *ngIf="project.githubLink" (click)="sendEvent(eventLabelTitleFormat(project.name) + '_github_link_redirect')" [attr.aria-label]="project.name + ' github link'" [href]="project.githubLink" target="_blank" title="Github" class="btn btn-github"><i class="fa-brands fa-github"></i></a>
+              <a *ngIf="project.liveLink" (click)="sendEvent(eventLabelTitleFormat(project.name) + '_live_website_redirect')" [attr.aria-label]="project.name + ' live website'" [href]="project.liveLink" target="_blank" title="Live site" class="btn btn-live"><i class="fa-solid fa-circle-arrow-right"></i></a>
             </div>
           </div>
         </div>
+        
       </div>
 
     </div>
@@ -36,7 +37,7 @@
 
   <div class="phone-projects-listing d-block d-md-none">
     <div class="project-item" *ngFor="let project of keyProjects;index as i" data-aos="fade-up" data-aos-offset="20" data-aos-duration="1100">
-      <img [src]="project.imgUrl" alt="project-illustration">
+      <img [src]="project.imgUrl" alt="project-illustration" loading="lazy">
       <div class="card">
         <h4>{{project.name}}</h4>
         <p>{{project.description}}</p>
@@ -44,8 +45,8 @@
           <span *ngFor="let tech of project.technologies">{{tech}}</span>
         </div>
         <div class="action-btns">
-          <a *ngIf="project.githubLink" [href]="project.githubLink" target="_blank" title="Github" class="btn btn-github"><i class="fa-brands fa-github"></i></a>
-          <a *ngIf="project.liveLink" [href]="project.liveLink" target="_blank" title="Live site" class="btn btn-live"><i class="fa-solid fa-circle-arrow-right"></i></a>
+          <a *ngIf="project.githubLink" (click)="sendEvent(eventLabelTitleFormat(project.name) + '_github_link_redirect')" [attr.aria-label]="project.name + ' github link'" [href]="project.githubLink" target="_blank" title="Github" class="btn btn-github"><i class="fa-brands fa-github"></i></a>
+          <a *ngIf="project.liveLink" (click)="sendEvent(eventLabelTitleFormat(project.name) + '_live_website_redirect')" [attr.aria-label]="project.name + ' live website'" [href]="project.liveLink" target="_blank" title="Live site" class="btn btn-live"><i class="fa-solid fa-circle-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -53,8 +54,6 @@
 
 
   <h5 class="secondary-section-title mb-5">Noteworthy projects </h5>
-  
-
 
   <div class="other-projects-listing">
     <div class="row"  data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000">
@@ -64,8 +63,8 @@
           <h4>{{project.name}}</h4>
           <p>{{project.description}}</p>
           <div class="action-btns">
-            <a *ngIf="project.githubLink" [href]="project.githubLink" target="_blank" title="Github" class="btn btn-github"><i class="fa-brands fa-github"></i></a>
-            <a *ngIf="project.liveLink" [href]="project.liveLink" target="_blank" title="Live site" class="btn btn-live"><i class="fa-solid fa-circle-arrow-right"></i></a>
+            <a *ngIf="project.githubLink" (click)="sendEvent(eventLabelTitleFormat(project.name) + '_github_link_redirect')" [attr.aria-label]="project.name + ' github link'" [href]="project.githubLink" target="_blank" title="Github" class="btn btn-github"><i class="fa-brands fa-github"></i></a>
+            <a *ngIf="project.liveLink" (click)="sendEvent(eventLabelTitleFormat(project.name) + '_live_website_redirect')" [attr.aria-label]="project.name + ' live website'" [href]="project.liveLink" target="_blank" title="Live site" class="btn btn-live"><i class="fa-solid fa-circle-arrow-right"></i></a>
           </div>
         </div>
       </div>

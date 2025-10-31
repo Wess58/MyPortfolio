@@ -19,7 +19,15 @@
         .btn-live {
           i {
             transform: rotate(-45deg);
+            transition: all 0.2s;
           }
+        }
+
+        .btn {
+          border: 2px solid #f1f2f3 !important;
+          color: #3c4043 !important;
+          background-color: #f1f2f3;
+          transition: all 0.3s;
         }
 
         .card {
@@ -94,7 +102,7 @@
         color: #80868b;
         font-size: 0.8rem;
         display: inline-block;
-        margin: 0 10px;
+        margin-right: 20px;
 
         &:first-child {
           margin-left: 0;
@@ -115,12 +123,6 @@
         border: 2px solid #f1f2f3;
         color: #f1f2f3;
         transition: all 0.2s;
-
-        &:hover {
-          border: 2px solid #f1f2f3 !important;
-          color: #3c4043 !important;
-          background-color: #f1f2f3 !important;
-        }
 
         &:first-child {
           margin-left: 0;
